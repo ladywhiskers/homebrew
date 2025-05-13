@@ -4,156 +4,147 @@
       "type": "section",
       "name": "Welcome to Fantastic Adventures",
       "id": "fa-intro",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Fantastic Adventures contains ten short adventures designed for fast, fun, one-session play...",
-            "The adventures focus on key elements you need to run a game without bogging down."
-          ]
-        }
-      ]
+          "Welcome to Sly Flourish’s Fantastic Adventures. You hold in your hands a set of fantasy adventures designed to be played with the fifth edition of the world’s most popular roleplaying game.",
+          "All these scenarios have been written with the goal of making it as easy as possible for you, the game master (GM), to run a two- to four-hour game for four to six characters of 2nd to 5th level.",
+          "You should be able to pick up and run any of these adventures with little to no preparation ahead of time.",
+          "And if you’re a new GM, these adventures will help you learn how to run great fantasy roleplaying sessions."
+        ]
     },
     {
       "type": "section",
       "name": "The Village of Whitesparrow",
       "id": "fa-whitesparrow",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Whitesparrow is a settlement of 500 souls known for raising large, four-horned goats...",
-            "Cyclopean Palm: A titanic six-fingered hand rises in the village center, mysterious and ancient."
-          ]
-        },
-        {
-          "type": "list",
-          "name": "Notable Locations",
-          "items": [
-            "Cyclopean Palm",
-            "Evershady Tavern",
-            "Summerspring Inn",
-            "Temple of Light",
-            "Grayhorn Outfitters",
-            "Whitesparrow Keep"
-          ]
-        },
-        {
-          "type": "list",
-          "name": "Notable NPCs",
-          "items": [
-            "Sheriff Ruth Willowmane",
-            "Lord Marlin Whitesparrow",
-            "Amanda Jess",
-            "Gavun Grayhorn",
-            "Elovyn Sorrowsong",
-            "Philcock Deadcleft"
-          ]
-        }
-      ]
+      "entries": ["Nestled between mountains to the east and west and swampland and forest to the south, the village of Whitesparrow serves as respite for those who travel along the modest trade route running through the surrounding valley.",
+		  "An old keep overlooks this village of five hundred people from an adjacent hill, with banners depicting the settlement’s namesake bird fluttering from its square turrets.",
+		  "After the keep, a great hand carved of black stone isWhitesparrow’s second-most-visible landmark, risingup at the center of the village with its thumb and fivefingers splayed out.",
+		  "The area around the hand is a greatdig, where previous generations tried and failed toexcavate whatever lay beneath it.",
+		  "An open-air stone temple, a two-story inn built atop steaming hot springs, and an outfitters’ shop stand among two dozen other buildings that make up the heart of the village, while farmhouses dot the neighboring hillsides, surrounded by broad fields of crops."
+	  ]
     },
+    {
+      "type": "section",
+      "name": "Adventure Format",
+      "id": "fa-adventure-format",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Improvised Skill Checks, Damage, and Effects",
+      "id": "fa-skill-checks",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Tuning Encounters",
+      "id": "fa-tuning-encounters",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Final Words on Running These Adventures",
+      "id": "fa-final-words",
+      "entries": []
+    },
+
+    <!-- Adventures start here -->
+
     {
       "type": "section",
       "name": "The Night Blade",
       "id": "fa-night-blade",
       "entries": [
         {
-          "type": "insetReadaloud",
+          "type": "entries",
+          "name": "Summary",
           "entries": [
-            "The mist hangs heavy over Whitesparrow as rumors swirl of the Night Blade's return."
+            "The Night Blade",
+            "Ralavaz the Night Blade, a notorious bandit chieftain,",
+            "has been released from prison. Rumors mark him as",
+            "having returned to the hideout from which he and his",
+            "band once operated—a ruined watchtower where a new",
+            "group of bandits now dwells. The local sheriff believes",
+            "that Ralavaz’s return means the Night Blades are back—",
+            "and that the bandit chieftain must be stopped for good."
           ]
         },
-        {
+          {
           "type": "entries",
           "name": "Notable NPCs",
-          "entries": [
-            "Ralavaz the Night Blade - Repentant former bandit chieftain.",
-            "Gardren the Night Lord - Disfigured and vengeful brother."
-          ]
+          "entries": [ "Sheriff Ruth Willowmane: Sheriff of the village of Whitesparrow, Ruth knows that her younger brother,Dronder Willowmane, was slain by Ralavaz eleven years earlier. But a lack of evidence meant that the bandit chieftain never paid the price for the crime.",
+			  "Gardren the Night Lord: The younger of the brothers who once led the Night Blades, Gardren is thought by most folk to be dead. Ten years ago, the first incarnation of the Night Blades were cornered in a barn near the Lonely Torch watchtower. Angry villagers set the structure ablaze, and only Ralavaz is thought to have made it out alive. Gardren still lives, however, and is secretly leading a new gang of Night Blades when his brother returns.",
+              "Disfigured by the fire, Gardren doesn’t lead the gang for treasure or profit. Rather, he wants to see the folk of Whitesparrow destroyed in the name of his dead friends and the injury done to him. Among his many dark hobbies, Gardren has learned how to tame stirges—or at least to prevent them from attacking him. He has a particularly nasty pet stirge he calls Heartspine, who is always with him. ",
+              "Ralavaz the Night Blade: Ralavaz is the elder of the brothers who led the Night Blades ten years ago, and the only known survivor of the fire that wiped the bandits out. Having saved a noble’s son during a prison riot while awaiting execution, Ralavaz had his sentence commuted, and was recently released after ten years instead of paying with his life for his crimes. He has returned to the ruined tower known as the Lonely Torch, where new members of the Night Blade bandits now dwell. Unknown to most people, Ralavaz has repented his old ways and become a follower of the goddess of light. He wishes to ask his brother’s forgiveness, and to turn Gardren away from murder and banditry."		  
+		  ]
         },
         {
           "type": "entries",
           "name": "Secrets and Clues",
-          "entries": [
-            "Dousing boots with urine repels tangleweed.",
-            "The Night Lord is actually Gardren Willowmane."
-          ]
+          "entries": [ ... ]
+        },
+        {
+          "type": "insetReadaloud",
+          "entries": [ "Light rain falls, and a gloomy mist covers the landscape. A large tree has fallen across the road, crushing a wagon under its great weight. More fallen trees lie at the sides of the road" ]
         },
         {
           "type": "entries",
-          "name": "Monsters Encountered",
-          "entries": [
-            "Bandit",
-            "Shambling Mound",
-            "Stirge",
-            "Guard",
-            "Thug",
-            "Swarm of Rats",
-            "Bandit Captain"
-          ]
+          "name": "Conclusion",
+          "entries": [ ... ]
         }
       ]
     },
     {
       "type": "section",
-      "name": "Adventure Format",
-      "id": "fa-adventure-format",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Each adventure is designed with a Summary, Notable NPCs, Secrets and Clues, Start, Notable Locations, Conclusion, and Customization Advice."
-          ]
-        }
-      ]
+      "name": "The Dwarven Vault",
+      "id": "fa-dwarven-vault",
+      "entries": []
     },
     {
       "type": "section",
-      "name": "Improvised Skill Checks, Damage, and Effects",
-      "id": "fa-skill-checks",
-      "entries": [
-        {
-          "type": "list",
-          "name": "Skill Check Guidelines",
-          "items": [
-            "Skill DCs: 10 (easy) to 20 (hard)",
-            "AC: 10 (rotted wood) to 20 (hard stone or iron)",
-            "Attack Bonus: +3 (weak) to +7 (strong)",
-            "Hit Points: 5 to 30",
-            "Saving Throws: DC 12 (weak) to DC 15 (strong)",
-            "Low Damage: 3 (1d6)",
-            "Medium Damage: 7 (2d6)",
-            "High Damage: 14 (4d6)"
-          ]
-        }
-      ]
+      "name": "The Well of the Black Sun",
+      "id": "fa-black-sun",
+      "entries": []
     },
     {
       "type": "section",
-      "name": "Tuning Encounters",
-      "id": "fa-tuning-encounters",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Adjust monster counts, hit points, or abilities to suit your party's size and strength.",
-            "For 1st-level groups, remove creatures above CR 1/4 from starting encounters."
-          ]
-        }
-      ]
+      "name": "Rosethorn",
+      "id": "fa-rosethorn",
+      "entries": []
     },
     {
       "type": "section",
-      "name": "Final Words on Running These Adventures",
-      "id": "fa-final-words",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "These adventures are tools for you to shape. Run them flexibly. Don't worry about 'playing it right'—aim for fun at the table."
-          ]
-        }
-      ]
+      "name": "The Gleam in the King’s Eye",
+      "id": "fa-gleam-king-eye",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "The Crashed Palace",
+      "id": "fa-crashed-palace",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "The Flesh Eaters",
+      "id": "fa-flesh-eaters",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "The Queen of Red Water",
+      "id": "fa-queen-red-water",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "The Cult of Dusk",
+      "id": "fa-cult-dusk",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Gloom",
+      "id": "fa-gloom",
+      "entries": []
     }
   ]
 }
