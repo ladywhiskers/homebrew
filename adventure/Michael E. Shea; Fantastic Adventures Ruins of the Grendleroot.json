@@ -2,93 +2,90 @@
   "data": [
     {
       "type": "section",
-      "name": "Welcome to Fantastic Adventures",
-      "id": "fa-intro",
+      "name": "Introduction to Ruins of the Grendleroot",
+      "id": "rog-intro",
       "entries": [
         {
           "type": "entries",
           "entries": [
-            "Fantastic Adventures contains ten short adventures designed for fast, fun, one-session play...",
-            "The adventures focus on key elements you need to run a game without bogging down."
+            "Ruins of the Grendleroot is a collection of adventures set in the deep halls of Blackclaw Mountain, tied together by strange remnants of an ancient world."
           ]
         }
       ]
     },
     {
       "type": "section",
-      "name": "The Village of Whitesparrow",
-      "id": "fa-whitesparrow",
+      "name": "Deepdelver’s Enclave",
+      "id": "rog-deepdelvers-enclave",
       "entries": [
         {
           "type": "entries",
           "entries": [
-            "Whitesparrow is a settlement of 500 souls known for raising large, four-horned goats...",
-            "Cyclopean Palm: A titanic six-fingered hand rises in the village center, mysterious and ancient."
+            "Deepdelver’s Enclave is a bastion of civilization inside Blackclaw Mountain, serving as the home base for adventurers venturing into the ruins."
           ]
         },
         {
           "type": "list",
-          "name": "Notable Locations",
+          "name": "Key Locations",
           "items": [
-            "Cyclopean Palm",
-            "Evershady Tavern",
-            "Summerspring Inn",
-            "Temple of Light",
-            "Grayhorn Outfitters",
-            "Whitesparrow Keep"
-          ]
-        },
-        {
-          "type": "list",
-          "name": "Notable NPCs",
-          "items": [
-            "Sheriff Ruth Willowmane",
-            "Lord Marlin Whitesparrow",
-            "Amanda Jess",
-            "Gavun Grayhorn",
-            "Elovyn Sorrowsong",
-            "Philcock Deadcleft"
+            "The Iron Tome",
+            "The Grizzled Troll Tavern",
+            "The Stoneheart Smithy",
+            "The Enclave Market"
           ]
         }
       ]
     },
     {
       "type": "section",
-      "name": "The Night Blade",
-      "id": "fa-night-blade",
+      "name": "History of Blackclaw Mountain",
+      "id": "rog-history-blackclaw",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "Blackclaw Mountain was shaped by ancient cosmic events, leaving behind ruins and artifacts of vast mystery and power.",
+            "Tales tell of the Black Star falling, shattering the mountain and twisting its halls forever."
+          ]
+        }
+      ]
+    },
+
+    <!-- One "section" block per Adventure starting here -->
+
+    {
+      "type": "section",
+      "name": "The Call of Starsong Tower",
+      "id": "rog-starsong-tower",
       "entries": [
         {
           "type": "insetReadaloud",
           "entries": [
-            "The mist hangs heavy over Whitesparrow as rumors swirl of the Night Blade's return."
+            "The songs of the Starsong Tower once guided lost travelers, but now they call only to the brave... or the doomed."
           ]
         },
         {
           "type": "entries",
           "name": "Notable NPCs",
           "entries": [
-            "Ralavaz the Night Blade - Repentant former bandit chieftain.",
-            "Gardren the Night Lord - Disfigured and vengeful brother."
+            "Elder Mystriel: The keeper of Starsong Tower’s fading magic.",
+            "Varna Blackshield: Bandit leader seeking the tower's power."
           ]
         },
         {
           "type": "entries",
           "name": "Secrets and Clues",
           "entries": [
-            "Dousing boots with urine repels tangleweed.",
-            "The Night Lord is actually Gardren Willowmane."
+            "The Starsong Tower's magic is tied to an ancient celestial artifact.",
+            "Bandits have been drawn to the tower by dreams sent by the Grendleroot."
           ]
         },
         {
           "type": "entries",
           "name": "Monsters Encountered",
           "entries": [
-            "Bandit",
-            "Shambling Mound",
-            "Stirge",
-            "Guard",
-            "Thug",
-            "Swarm of Rats",
+            "Shadow",
+            "Specter",
             "Bandit Captain"
           ]
         }
@@ -96,61 +93,66 @@
     },
     {
       "type": "section",
-      "name": "Adventure Format",
-      "id": "fa-adventure-format",
+      "name": "Temple of the Forgotten God",
+      "id": "rog-temple-forgotten-god",
+      "entries": [
+        {
+          "type": "insetReadaloud",
+          "entries": [
+            "Beneath the mountain's roots, forgotten prayers echo in silent halls, awaiting ears foolish enough to listen."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Notable NPCs",
+          "entries": [
+            "Priestess Hallowed Veyne: Twisted acolyte of a dead god."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Secrets and Clues",
+          "entries": [
+            "The Forgotten God was abandoned after a catastrophic betrayal by its followers.",
+            "Ancient relics still pulse with divine power deep below the temple."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Monsters Encountered",
+          "entries": [
+            "Ghoul",
+            "Wight",
+            "Cult Fanatic"
+          ]
+        }
+      ]
+    },
+
+    <!-- More Adventures continue similarly -->
+
+    {
+      "type": "section",
+      "name": "Gamemaster’s Toolkit",
+      "id": "rog-gamemasters-toolkit",
       "entries": [
         {
           "type": "entries",
           "entries": [
-            "Each adventure is designed with a Summary, Notable NPCs, Secrets and Clues, Start, Notable Locations, Conclusion, and Customization Advice."
+            "This section provides tips for improvising within Blackclaw Mountain, using random tables, and tuning encounters based on party strength."
           ]
         }
       ]
     },
     {
       "type": "section",
-      "name": "Improvised Skill Checks, Damage, and Effects",
-      "id": "fa-skill-checks",
-      "entries": [
-        {
-          "type": "list",
-          "name": "Skill Check Guidelines",
-          "items": [
-            "Skill DCs: 10 (easy) to 20 (hard)",
-            "AC: 10 (rotted wood) to 20 (hard stone or iron)",
-            "Attack Bonus: +3 (weak) to +7 (strong)",
-            "Hit Points: 5 to 30",
-            "Saving Throws: DC 12 (weak) to DC 15 (strong)",
-            "Low Damage: 3 (1d6)",
-            "Medium Damage: 7 (2d6)",
-            "High Damage: 14 (4d6)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "name": "Tuning Encounters",
-      "id": "fa-tuning-encounters",
+      "name": "Rise of the Black Star",
+      "id": "rog-black-star",
       "entries": [
         {
           "type": "entries",
           "entries": [
-            "Adjust monster counts, hit points, or abilities to suit your party's size and strength.",
-            "For 1st-level groups, remove creatures above CR 1/4 from starting encounters."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "name": "Final Words on Running These Adventures",
-      "id": "fa-final-words",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "These adventures are tools for you to shape. Run them flexibly. Don't worry about 'playing it right'—aim for fun at the table."
+            "A cosmic horror stirs once more beneath Blackclaw Mountain, awakening ancient engines of destruction."
           ]
         }
       ]
