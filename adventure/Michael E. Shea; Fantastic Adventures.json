@@ -1,0 +1,159 @@
+{
+  "data": [
+    {
+      "type": "section",
+      "name": "Welcome to Fantastic Adventures",
+      "id": "fa-intro",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "Fantastic Adventures contains ten short adventures designed for fast, fun, one-session play...",
+            "The adventures focus on key elements you need to run a game without bogging down."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "The Village of Whitesparrow",
+      "id": "fa-whitesparrow",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "Whitesparrow is a settlement of 500 souls known for raising large, four-horned goats...",
+            "Cyclopean Palm: A titanic six-fingered hand rises in the village center, mysterious and ancient."
+          ]
+        },
+        {
+          "type": "list",
+          "name": "Notable Locations",
+          "items": [
+            "Cyclopean Palm",
+            "Evershady Tavern",
+            "Summerspring Inn",
+            "Temple of Light",
+            "Grayhorn Outfitters",
+            "Whitesparrow Keep"
+          ]
+        },
+        {
+          "type": "list",
+          "name": "Notable NPCs",
+          "items": [
+            "Sheriff Ruth Willowmane",
+            "Lord Marlin Whitesparrow",
+            "Amanda Jess",
+            "Gavun Grayhorn",
+            "Elovyn Sorrowsong",
+            "Philcock Deadcleft"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "The Night Blade",
+      "id": "fa-night-blade",
+      "entries": [
+        {
+          "type": "insetReadaloud",
+          "entries": [
+            "The mist hangs heavy over Whitesparrow as rumors swirl of the Night Blade's return."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Notable NPCs",
+          "entries": [
+            "Ralavaz the Night Blade - Repentant former bandit chieftain.",
+            "Gardren the Night Lord - Disfigured and vengeful brother."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Secrets and Clues",
+          "entries": [
+            "Dousing boots with urine repels tangleweed.",
+            "The Night Lord is actually Gardren Willowmane."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Monsters Encountered",
+          "entries": [
+            "Bandit",
+            "Shambling Mound",
+            "Stirge",
+            "Guard",
+            "Thug",
+            "Swarm of Rats",
+            "Bandit Captain"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Adventure Format",
+      "id": "fa-adventure-format",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "Each adventure is designed with a Summary, Notable NPCs, Secrets and Clues, Start, Notable Locations, Conclusion, and Customization Advice."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Improvised Skill Checks, Damage, and Effects",
+      "id": "fa-skill-checks",
+      "entries": [
+        {
+          "type": "list",
+          "name": "Skill Check Guidelines",
+          "items": [
+            "Skill DCs: 10 (easy) to 20 (hard)",
+            "AC: 10 (rotted wood) to 20 (hard stone or iron)",
+            "Attack Bonus: +3 (weak) to +7 (strong)",
+            "Hit Points: 5 to 30",
+            "Saving Throws: DC 12 (weak) to DC 15 (strong)",
+            "Low Damage: 3 (1d6)",
+            "Medium Damage: 7 (2d6)",
+            "High Damage: 14 (4d6)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Tuning Encounters",
+      "id": "fa-tuning-encounters",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "Adjust monster counts, hit points, or abilities to suit your party's size and strength.",
+            "For 1st-level groups, remove creatures above CR 1/4 from starting encounters."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "name": "Final Words on Running These Adventures",
+      "id": "fa-final-words",
+      "entries": [
+        {
+          "type": "entries",
+          "entries": [
+            "These adventures are tools for you to shape. Run them flexibly. Don't worry about 'playing it right'—aim for fun at the table."
+          ]
+        }
+      ]
+    }
+  ]
+}
