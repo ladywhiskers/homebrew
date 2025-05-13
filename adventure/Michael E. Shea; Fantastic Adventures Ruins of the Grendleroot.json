@@ -4,158 +4,97 @@
       "type": "section",
       "name": "Introduction to Ruins of the Grendleroot",
       "id": "rog-intro",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Ruins of the Grendleroot is a collection of adventures set in the deep halls of Blackclaw Mountain, tied together by strange remnants of an ancient world."
-          ]
-        }
-      ]
+      "entries": []
     },
     {
       "type": "section",
       "name": "Deepdelver’s Enclave",
       "id": "rog-deepdelvers-enclave",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Deepdelver’s Enclave is a bastion of civilization inside Blackclaw Mountain, serving as the home base for adventurers venturing into the ruins."
-          ]
-        },
-        {
-          "type": "list",
-          "name": "Key Locations",
-          "items": [
-            "The Iron Tome",
-            "The Grizzled Troll Tavern",
-            "The Stoneheart Smithy",
-            "The Enclave Market"
-          ]
-        }
-      ]
+      "entries": []
     },
     {
       "type": "section",
       "name": "History of Blackclaw Mountain",
       "id": "rog-history-blackclaw",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "Blackclaw Mountain was shaped by ancient cosmic events, leaving behind ruins and artifacts of vast mystery and power.",
-            "Tales tell of the Black Star falling, shattering the mountain and twisting its halls forever."
-          ]
-        }
-      ]
+      "entries": []
     },
 
-    <!-- One "section" block per Adventure starting here -->
+    <!-- Adventures start here -->
 
     {
       "type": "section",
       "name": "The Call of Starsong Tower",
       "id": "rog-starsong-tower",
-      "entries": [
-        {
-          "type": "insetReadaloud",
-          "entries": [
-            "The songs of the Starsong Tower once guided lost travelers, but now they call only to the brave... or the doomed."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Notable NPCs",
-          "entries": [
-            "Elder Mystriel: The keeper of Starsong Tower’s fading magic.",
-            "Varna Blackshield: Bandit leader seeking the tower's power."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Secrets and Clues",
-          "entries": [
-            "The Starsong Tower's magic is tied to an ancient celestial artifact.",
-            "Bandits have been drawn to the tower by dreams sent by the Grendleroot."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Monsters Encountered",
-          "entries": [
-            "Shadow",
-            "Specter",
-            "Bandit Captain"
-          ]
-        }
-      ]
+      "entries": []
     },
     {
       "type": "section",
       "name": "Temple of the Forgotten God",
       "id": "rog-temple-forgotten-god",
-      "entries": [
-        {
-          "type": "insetReadaloud",
-          "entries": [
-            "Beneath the mountain's roots, forgotten prayers echo in silent halls, awaiting ears foolish enough to listen."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Notable NPCs",
-          "entries": [
-            "Priestess Hallowed Veyne: Twisted acolyte of a dead god."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Secrets and Clues",
-          "entries": [
-            "The Forgotten God was abandoned after a catastrophic betrayal by its followers.",
-            "Ancient relics still pulse with divine power deep below the temple."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Monsters Encountered",
-          "entries": [
-            "Ghoul",
-            "Wight",
-            "Cult Fanatic"
-          ]
-        }
-      ]
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "The Spire of Violet Falls",
+      "id": "rog-violet-spire",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "A Fistful of Copper",
+      "id": "rog-fistful-copper",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Shatter",
+      "id": "rog-shatter",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Chuul",
+      "id": "rog-chuul",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "The Cell",
+      "id": "rog-cell",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Vault of the White Queen",
+      "id": "rog-white-queen",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Children of the Red Rose",
+      "id": "rog-red-rose",
+      "entries": []
+    },
+    {
+      "type": "section",
+      "name": "Seed of the Black Cathedral",
+      "id": "rog-black-cathedral",
+      "entries": []
     },
 
-    <!-- More Adventures continue similarly -->
+    <!-- Appendices -->
 
     {
       "type": "section",
       "name": "Gamemaster’s Toolkit",
       "id": "rog-gamemasters-toolkit",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "This section provides tips for improvising within Blackclaw Mountain, using random tables, and tuning encounters based on party strength."
-          ]
-        }
-      ]
+      "entries": []
     },
     {
       "type": "section",
       "name": "Rise of the Black Star",
       "id": "rog-black-star",
-      "entries": [
-        {
-          "type": "entries",
-          "entries": [
-            "A cosmic horror stirs once more beneath Blackclaw Mountain, awakening ancient engines of destruction."
-          ]
-        }
-      ]
+      "entries": []
     }
   ]
 }
