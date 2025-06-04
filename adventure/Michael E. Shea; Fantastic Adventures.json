@@ -1,150 +1,1170 @@
 {
-  "data": [
+  "_meta": {
+    "sources": [
+      {
+        "json": "SFFA",
+        "abbreviation": "SFFA",
+        "full": "Sly Flourish's Fantastic Adventures",
+        "authors": ["Michael E. Shea"],
+        "version": "1.0.0",
+        "url": "https://slyflourish.com/fantastic_adventures_kickstarter.html",
+        "license": "NONE",
+        " aventuras": true
+      }
+    ],
+    "dateAdded": 1717524115000,
+    "dateModified": 1717524115000
+  },
+  "book": [
     {
-      "type": "section",
-      "name": "Welcome to Fantastic Adventures",
-      "id": "fa-intro",
-          "Welcome to Sly Flourish’s Fantastic Adventures. You hold in your hands a set of fantasy adventures designed to be played with the fifth edition of the world’s most popular roleplaying game.",
-          "All these scenarios have been written with the goal of making it as easy as possible for you, the game master (GM), to run a two- to four-hour game for four to six characters of 2nd to 5th level.",
-          "You should be able to pick up and run any of these adventures with little to no preparation ahead of time.",
-          "And if you’re a new GM, these adventures will help you learn how to run great fantasy roleplaying sessions."
-        ]
-    },
-    {
-      "type": "section",
-      "name": "The Village of Whitesparrow",
-      "id": "fa-whitesparrow",
-      "entries": ["Nestled between mountains to the east and west and swampland and forest to the south, the village of Whitesparrow serves as respite for those who travel along the modest trade route running through the surrounding valley.",
-		  "An old keep overlooks this village of five hundred people from an adjacent hill, with banners depicting the settlement’s namesake bird fluttering from its square turrets.",
-		  "After the keep, a great hand carved of black stone isWhitesparrow’s second-most-visible landmark, risingup at the center of the village with its thumb and fivefingers splayed out.",
-		  "The area around the hand is a greatdig, where previous generations tried and failed toexcavate whatever lay beneath it.",
-		  "An open-air stone temple, a two-story inn built atop steaming hot springs, and an outfitters’ shop stand among two dozen other buildings that make up the heart of the village, while farmhouses dot the neighboring hillsides, surrounded by broad fields of crops."
-	  ]
-    },
-    {
-      "type": "section",
-      "name": "Adventure Format",
-      "id": "fa-adventure-format",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Improvised Skill Checks, Damage, and Effects",
-      "id": "fa-skill-checks",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Tuning Encounters",
-      "id": "fa-tuning-encounters",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Final Words on Running These Adventures",
-      "id": "fa-final-words",
-      "entries": []
-    },
-
-    <!-- Adventures start here -->
-
-    {
-      "type": "section",
-      "name": "The Night Blade",
-      "id": "fa-night-blade",
-      "entries": [
+      "name": "Sly Flourish's Fantastic Adventures",
+      "id": "SFFA_BOOK",
+      "source": "SFFA",
+      "contents": [
         {
           "type": "entries",
-          "name": "Summary",
+          "name": "Introduction",
           "entries": [
-            "The Night Blade",
-            "Ralavaz the Night Blade, a notorious bandit chieftain,",
-            "has been released from prison. Rumors mark him as",
-            "having returned to the hideout from which he and his",
-            "band once operated—a ruined watchtower where a new",
-            "group of bandits now dwells. The local sheriff believes",
-            "that Ralavaz’s return means the Night Blades are back—",
-            "and that the bandit chieftain must be stopped for good."
+            "Welcome to {@i Sly Flourish’s Fantastic Adventures}. You hold in your hands a set of fantasy adventures designed to be played with the fifth edition of the world’s most popular roleplaying game. ",
+            "All these scenarios have been written with the goal of making it as easy as possible for you, the game master (GM), to run a two- to four-hour game for four to six characters of 2nd to 5th level. ",
+            "You should be able to pick up and run any of these adventures with little to no preparation ahead of time. ",
+            "And if you’re a new GM, these adventures will help you learn how to run great fantasy roleplaying sessions. ",
+            "There are many different ways to play a 5e game. ",
+            "The flexibility of fifth edition and of roleplaying games in general is what makes them so powerful. ",
+            "However, this product and the adventures within it focus on a few specific ways to play. ",
+            "The book features some core design philosophies that might differ from the ways you’re used to playing your games, or from your expectations based on other published adventures. ",
+            "These philosophies include the following:",
+            {
+              "type": "list",
+              "items": [
+                "We believe that the best games come from the imaginations of the players and the game master alike. ",
+                "We don’t fill in all the blanks in these adventures, each of which features gaps, seams, nooks, and crannies that you can fill with your own ideas—or with the ideas that spontaneously arise from the actions and decisions of your players. ",
+                "We believe that great combat sessions can be run without a 5-foot-per-inch gridded battle map or miniatures. ",
+                "All the combat encounters in these adventures have been designed to run perfectly without worrying about fixed distances at 5-foot intervals. ",
+                "You’re certainly free to use a gridded map and miniatures for combat if doing so is an important part of your game, but that’s not our expectation. ",
+                "We don’t reprint material you can find elsewhere. In particular, you’ll need to provide your own monster statistics. ",
+                "All the monsters in these adventures are part of the core fifth edition System Reference Document and the primary fifth edition book of monsters. ",
+                "You can find these statistics through numerous legal and free sources. ",
+                "Just keep in mind that you’ll want to have your monster stats on hand before you run any of these adventures. ",
+                "We hope and expect that you’ll twist, morph, steal, reskin, hack, glue, and mold these adventures into the adventures you want them to be. ",
+                "We’ve designed them to be highly modular, letting you plug in your own nonplayer characters wherever you need to, swap out monsters for the monsters you want, and tune the difficulty to fit the challenge you want the characters to face. ",
+                "Nothing here is sacred. Everything is fluid. Make it your own. "
+              ]
+            },
+            "We keep it brief. ",
+            "We try to keep each adventure focused and the word count as low as possible, so that you can skim the text and start playing. ",
+            "We don’t expect you to spend a weekend poring over an adventure. ",
+            "We expect that you’ll pick it up, give it a healthy five-minute quick read, and then start running your game. "
           ]
         },
-          {
+        {
           "type": "entries",
-          "name": "Notable NPCs",
-          "entries": [ "Sheriff Ruth Willowmane: Sheriff of the village of Whitesparrow, Ruth knows that her younger brother,Dronder Willowmane, was slain by Ralavaz eleven years earlier. But a lack of evidence meant that the bandit chieftain never paid the price for the crime.",
-			  "Gardren the Night Lord: The younger of the brothers who once led the Night Blades, Gardren is thought by most folk to be dead. Ten years ago, the first incarnation of the Night Blades were cornered in a barn near the Lonely Torch watchtower. Angry villagers set the structure ablaze, and only Ralavaz is thought to have made it out alive. Gardren still lives, however, and is secretly leading a new gang of Night Blades when his brother returns.",
-              "Disfigured by the fire, Gardren doesn’t lead the gang for treasure or profit. Rather, he wants to see the folk of Whitesparrow destroyed in the name of his dead friends and the injury done to him. Among his many dark hobbies, Gardren has learned how to tame stirges—or at least to prevent them from attacking him. He has a particularly nasty pet stirge he calls Heartspine, who is always with him. ",
-              "Ralavaz the Night Blade: Ralavaz is the elder of the brothers who led the Night Blades ten years ago, and the only known survivor of the fire that wiped the bandits out. Having saved a noble’s son during a prison riot while awaiting execution, Ralavaz had his sentence commuted, and was recently released after ten years instead of paying with his life for his crimes. He has returned to the ruined tower known as the Lonely Torch, where new members of the Night Blade bandits now dwell. Unknown to most people, Ralavaz has repented his old ways and become a follower of the goddess of light. He wishes to ask his brother’s forgiveness, and to turn Gardren away from murder and banditry."		  
-		  ]
+          "name": "The Village of Whitesparrow",
+          "entries": [
+            "The adventures in this book take place around Whitesparrow, a settlement of five hundred souls known for raising large, four-horned goats that thrive nowhere but in the local area. ",
+            "Trouble and odd events—known as “the peculiarities” by the locals— seem to home in on the village frequently, but its stout folk struggle on. ",
+            "You are free to use Whitesparrow in these adventures, or to replace it with a settlement of your choice from your own world or your favorite published setting. ",
+            "Like the rest of the material in this book, the village is a tool for you to employ if doing so is useful, or to discard if not. ",
+            "Nestled between mountains to the east and west and swampland and forest to the south, the village of Whitesparrow serves as respite for those who travel along the modest trade route running through the surrounding valley. ",
+            "An old keep overlooks this village of five hundred people from an adjacent hill, with banners depicting the settlement’s namesake bird fluttering from its square turrets. ",
+            "After the keep, a great hand carved of black stone is Whitesparrow’s second-most-visible landmark, rising up at the center of the village with its thumb and five fingers splayed out. ",
+            "The area around the hand is a great dig, where previous generations tried and failed to excavate whatever lay beneath it. ",
+            "An open-air stone temple, a two-story inn built atop steaming hot springs, and an outfitters’ shop stand among two dozen other buildings that make up the heart of the village, while farmhouses dot the neighboring hillsides, surrounded by broad fields of crops. ",
+            "{@i Area Aspects:} Cyclopean hand, old keep, outfitters, open-air temple, hot spring inn ",
+            {
+              "type": "entries",
+              "name": "Using Whitesparrow in Your Campaign",
+              "entries": [
+                "The village of Whitesparrow serves as the hub for the adventures in this book, so as to save on the space required to write a new starting location for each adventure, and to give the characters a well-defined home base. ",
+                "The design of the village is both straightforward and spare, featuring an inn, a tavern, an outfitters, a sheriff, and the village lord. ",
+                "Whitesparrow has thus been designed to fit easily into any fantasy world—but also to be completely replaceable with any settlement of your choice from your own campaign word, another published adventure, or a larger published campaign setting. ",
+                "Use the village as is, modify it to suit your own campaign, or throw it out and replace it completely. ",
+                "It’s up to you. "
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Notable Locations of Whitesparrow",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "The Cyclopean Palm",
+                  "entries": [
+                    "{@i Area Aspects:} Titanic six-fingered hand rising out of the ground, unknown and indestructible substance, deep excavations, rumored staircase ",
+                    {
+                      "type": "quote",
+                      "entries": [
+                        "A great hand carved of smooth black stone rises in the center of the village, its palm facing the sky and its thumb and five fingers splayed out. ",
+                        "The cyclopean stonework is nearly forty feet high—tall enough that buildings have been constructed around it and a tavern sits underneath the shade of the back of the hand. ",
+                        "Deep clefts have been dug in around the hand’s wrist, confirming that it is attached to a forearm descending far beneath the ground. "
+                      ]
+                    },
+                    "The age of the stone hand jutting out of the ground has never been accurately determined, and its origin remains unknown. ",
+                    "Its stone is seemingly impervious to damage, and resembles no other type of local rock. ",
+                    "A number of explorers and miners have tried to dig out the rest of this amazing construction over the years. ",
+                    "However, most such attempts were abandoned when their crews began to complain of nightmares filled with strange buzzing sounds. ",
+                    "Some of the clefts left behind by these excavation efforts still exist, with old rope ladders leading down roughly one hundred feet to the bend at the elbow of the arm. ",
+                    "A rumor continuously floats around Whitesparrow talking of how the hand’s wrist is hollow, and of a staircase carved into it that leads down below the surface. ",
+                    "A chamber within the arm is said to be the boundary between two worlds. ",
+                    "However, most pass this rumor off as a fantasy, spoken of by drunkards and sketched onto false maps sold for a few silver to travelers awed by the spectacle of the cyclopean palm. "
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Evershady Tavern",
+                  "entries": [
+                    "{@i Area Aspects:} Continual shade under the cyclopean palm, indoor and outdoor tables, circular bar around the wrist ",
+                    {
+                      "type": "quote",
+                      "entries": [
+                        "Underneath the great palm rests the building and outdoor eatery that is the Evershady Tavern. ",
+                        "A half-circle bar has been built around the wrist of the upthrust hand, and numerous tables rest beneath the shade of the palm. ",
+                        "Ropes and nets filled with foodstuffs hang from the hand’s splayed fingers. "
+                      ]
+                    },
+                    "The enterprising Amanda Jess built this tavern four decades earlier, and has since turned it into an enduring and profitable business. ",
+                    "The tavern serves travelers and workers for miles around, featuring a spiced lamb stew known far and wide as one of the best dishes in the local area. ",
+                    "The recipe is kept secret, but some think that the proximity of the tavern’s kitchens to the cyclopean palm plays some part in its potency. ",
+                    "The vast cellars below the tavern were dug out by various expeditions seeking the secrets of the cyclopean palm, but which never uncovered anything but bankruptcy and madness. "
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Summerspring Inn",
+                  "entries": [
+                    "{@i Area Aspects:} Underground hot springs, creaking and rotting wood, large support beams ",
+                    {
+                      "type": "quote",
+                      "entries": [
+                        "This large, two-story building seems to sit slightly askew, supported at its corners by heavy beams that keep it from collapsing completely. ",
+                        "Whenever the wind blows, the whole building makes a deep creaking sound, like someone trying to get comfortable in a tilting chair. "
+                      ]
+                    },
+                    "The Summerspring Inn’s most notable feature is the hot springs on which it sits—and which are also the cause of its potential demise. ",
+                    "The continual humidity has soaked into the wood of the building, rotting much of it and putting the entire structure on the edge of collapse. ",
+                    "Maintaining the inn is now a full-time endeavor, and workers are continually reinforcing beams and adding new supports where the floors have begun to sag. ",
+                    "The lower rooms of the inn include their own stone hot baths, continually fed by the slightly sulfuric smelling hot springs. ",
+                    "Some of those springs have unexpectedly gone dry over the years, leaving a network of caverns below the inn said to contain untouched gemstone deposits, lost relics, and secret horrors. ",
+                    "Amanda Jess owns this inn as well as the Evershady Tavern, but she relegates the inn’s daily management to Philcock Deadcleft. "
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Grayhorn Outfitters",
+                  "entries": [
+                    "{@i Area Aspects:} Shop and stables, huge horns above door, clutter and mess ",
+                    {
+                      "type": "quote",
+                      "entries": [
+                        "A pair of huge black horns protrudes out from above the heavy wooden door of this large shop. ",
+                        "A horseshoe, a bundle of rope, and a pickaxe are carved into the sign that hangs overhead. ",
+                        "One side of the building features a stable with twelve stalls, presently holding four well-worked draft horses and a beautiful white stallion. "
+                      ]
+                    },
+                    "Gavun Grayhorn’s shop is a cluttered mess holding all forms of tack and equipment, including both adventuring and exploration gear. ",
+                    "Gavun reluctantly brings out arms and armor if asked, though he doesn’t seem very fond of such items. ",
+                    "If asked about the horns above the door, he says he found them out in the woods, attached to the skull of some unknown herbivore. ",
+                    "In reality, they are the horns of the black dragon that slew Gavun’s companions when he was an adventurer—in response to which he took bloody revenge by feeding the dragon a dead yak concealing six pots of alchemist’s fire. ",
+                    "The dragon’s lair still holds the remains of Gavun’s companions and their equipment, all of which he hopes to recover some day—were it not for the monsters that have since taken up residence within the abandoned lair. "
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Temple of Light",
+                  "entries": [
+                    "{@i Area Aspects:} Open-air nave, statues of elves with hands raised to the sky, floating orb ",
+                    {
+                      "type": "quote",
+                      "entries": [
+                        "The central nave of this large circular temple is open to the sky above and adorned by five ancient statues of elf men and women—including a statue depicting the goddess of light—their faces and arms held up to the sky. ",
+                        "An orb hangs in midair in the center of the open nave, glowing with scintillating colors. ",
+                        "Rings of stone pews face a central fountain beneath the orb, which bubbles with warm water. ",
+                        "A small circular house sits nearby, artfully decorated with symbols of the sun. "
+                      ]
+                    },
+                    "Once an elven site, the temple has stood here for centuries, and was abandoned after the elves left this region to the human settlers who came after them. ",
+                    "The main chamber of the temple is open to the sky through a stone entryway, while the stone rooms around it are roofed of clay and slate to protect the temple’s ceremonial items. ",
+                    "A collapsed floor in the back of one storeroom of the temple leads into catacombs last explored centuries ago. ",
+                    "The scintillating orb has been present in the temple for as long as anyone can remember. ",
+                    "Four years ago, enterprising thieves tried to steal the orb armed with an exceptionally tall ladder—only to have the lead thief disappear as soon as her fingers touched the orb, never to be seen again. ",
+                    "A nearby home is the residence of the temple’s current priest, Elovyn Sorrowsong "
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Whitesparrow Keep",
+                  "entries": [
+                    "{@i Area Aspects:} Stone three-story keep, switchback cobblestone road, enormous stone birdbath ",
+                    {
+                      "type": "quote",
+                      "entries": [
+                        "A switchback cobblestone road leads up to the courtyard of Whitesparrow Keep, which stands majestically atop a rocky hill above the village. ",
+                        "A large, still pool of water sits in the center of the keep’s main courtyard, with a granite statue of a sparrow sitting atop a rock in the pool’s center. ",
+                        "Dozens of birds sit on perches around the pool’s edge, drinking from the pool and splashing about. ",
+                        "The keep beyond stands three stories tall, with square turrets in the front and a pitched roof in the back. "
+                      ]
+                    },
+                    "Not counting the temple, Whitesparrow keep is the oldest structure in the village, having survived numerous wars and other notable catastrophes. ",
+                    "As castles go, it is not terribly large, although numerous subbasements lead deep into the rocky hill upon which the keep is built. ",
+                    "Local rumors talk of how most of those subbasements haven’t been explored for hundreds of years. "
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "entries",
-          "name": "Secrets and Clues",
-          "entries": [ ... ]
-        },
-        {
-          "type": "insetReadaloud",
-          "entries": [ "Light rain falls, and a gloomy mist covers the landscape. A large tree has fallen across the road, crushing a wagon under its great weight. More fallen trees lie at the sides of the road" ]
+          "name": "Adventure Format",
+          "page": 4,
+          "entries": [
+            "If you’re used to traditional published adventures, the adventure format in this book might seem quite different to you. ",
+            "To keep the adventures brief, each one focuses on the key features you need to run a game, while avoiding features that aren’t likely to make an appearance during that game. ",
+            "Each adventure uses the following format: ",
+            {
+              "type": "list",
+              "style": "list-by-name",
+              "items": [
+                {
+                  "name": "Adventure Summary:",
+                  "entry": "The summary is a brief over view of the adventure and its expected outcomes. "
+                },
+                {
+                  "name": "Notable NPCs:",
+                  "entry": "This section provides a list of important NPCs (nonplayer characters) and villains who might come up during the adventure. "
+                },
+                {
+                  "name": "Secrets and Clues:",
+                  "entry": "Elements of the adventure that the characters can discover are laid out in this section.  These secrets and clues provide both you and your players with essential background to what’s going on in the adventure, as well as a bit of history about the adventure’s location.  Some of these are simply evocative bits of story, while others are hints that the characters can use to figure out certain aspects of the scenario.  These secrets aren’t tied to any particular NPC or location.  Rather, the expectation is that you’ll drop them in wherever they fit at the time.  Secrets and clues might be discovered through careful investigation, or they could arise as the result of a conversation with an NPC.  They might be tied to the history of a magic weapon or painted on the walls of a ruined castle.  You can place these elements wherever they make sense as you run the adventure. "
+                },
+                {
+                  "name": "Customizing the Adventure:",
+                  "entry": "This section provides tips for customizing the scenario to fit your own campaign and world, including changing out an adventure’s quest givers and notable NPCs for characters already established in your own campaign world. "
+                },
+                {
+                  "name": "Start:",
+                  "entry": "The beginning of the adventure usually starts with a strong initial scene to draw the players and characters into the action quickly.  This section includes italicized text you can read aloud to your players. "
+                },
+                {
+                  "name": "Notable Locations:",
+                  "entry": "These sites and settings of note are sometimes large; sometimes small.  Each includes descriptive text displayed in italics that you’re free to read aloud or summarize, as well as area aspects describing interesting and important features of the location that you’ll want to take note of. "
+                },
+                {
+                  "name": "Concluding the Adventure:",
+                  "entry": "This section describes the end state for the adventure and the potential outcomes the characters might arrive at. "
+                },
+                {
+                  "name": "Expanding the Adventure:",
+                  "entry": "Offering suggestions for developing the adventure beyond what’s presented in this book, this section also discusses making use of sites and settings from the book Sly Flourish’s Fantastic Locations.  That book isn’t required to run these adventures, but it offers a number of additional areas and artwork that can be used to expand the locations in this book. "
+                }
+              ]
+            }
+          ]
         },
         {
           "type": "entries",
-          "name": "Conclusion",
-          "entries": [ ... ]
+          "name": "Improvised Skill Checks, Damage, and Effects",
+          "page": 4,
+          "entries": [
+            "While running these adventures, you might want to add your own traps, hazards, or environmental effects. ",
+            "When you do, make use of the following guidelines for determining the Difficulty Class for ability checks, numbers for improvised attacks and damage, hit points for inanimate objects, ad hoc saving throw DCs, and thresholds for damage. ",
+            {
+              "type": "list",
+              "items": [
+                "Skill DCs: 10 (easy) to 20 (hard) ",
+                "AC: 10 (rotted wood) to 20 (hard stone or iron) ",
+                "Attack Bonus: +3 (weak) to +7 (strong) ",
+                "Hit Points: 5 to 30 ",
+                "Saving Throws: DC 12 (weak) to DC 15 (strong) ",
+                "Low Damage: 3 (1d6) ",
+                "Medium Damage: 7 (2d6) ",
+                "High Damage: 14 (4d6) "
+              ]
+            },
+            "For certain traps or hazards, you might have failed saving throws impose conditions such as blinded, charmed, deafened, frightened, grappled, incapacitated, paralyzed, petrified, poisoned, prone, restrained, stunned, or unconscious. ",
+            "Use these conditions sparingly. "
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tuning Encounters",
+          "page": 4,
+          "entries": [
+            "The number of monsters in these adventures is based on what makes sense for the adventure, and is generally built around a party of five 3rd level characters. ",
+            "Depending on many factors— including the number of characters in your game, the level of those characters, and how experienced your players are—you might want to make encounters easier or harder. ",
+            "Always feel free to simply replace an encounter in any of these adventures with an encounter of your own that you’d like to run. ",
+            "But if you’d prefer to just tune an existing encounter, you can do so in a few different ways. ",
+            "The easiest option is often just to add or remove monsters from the default number, making the encounter easier or harder accordingly. ",
+            "You can also tune the threat of existing monsters by increasing or decreasing their hit points, or dial up the threat of powerful monsters by giving them an extra action each turn. ",
+            "Tuning encounters is especially important for 1st-level characters. These adventures have been designed around characters of 2nd to 5th level, but you can still run any of them for a 1st-level group. ",
+            "Just make the first fight easier by removing any creatures above challenge rating 1/4. ",
+            "You’ll then likely want to advance the characters to 2nd level after that first fight, after incorporating some suitably intense roleplaying and noncombat challenges. "
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Final Words on Running These Adventures",
+          "page": 4,
+          "entries": [
+            "The adventures in this book have all been designed to help you run great games at your own table. ",
+            "Never worry about whether you’re playing “the right way” if doing so sacrifices your own enjoyment or the enjoyment of the players. ",
+            "Hang on with a loose grip. Add your own details. ",
+            "Wrap these adventures in your own stories and the stories of the characters who live through them. ",
+            "Dive deep, fall in, and enjoy the adventures that unfold at the table "
+          ]
         }
+      ]
+    }
+  ],
+  "adventure": [
+    {
+      "name": "The Night Blade",
+      "id": "SFFA_ADV_THE_NIGHT_BLADE",
+      "source": "SFFA",
+      "page": 12,
+      "level": {
+        "min": 2,
+        "max": 5
+      },
+      "summary": [
+        "Ralavaz the Night Blade, a notorious bandit chieftain, has been released from prison. ",
+        "Rumors mark him as having returned to the hideout from which he and his band once operated—a ruined watchtower where a new group of bandits now dwells. ",
+        "The local sheriff believes that Ralavaz’s return means the Night Blades are back— and that the bandit chieftain must be stopped for good. "
+      ],
+      "adventureData": {
+        "contents": [
+          {
+            "type": "entries",
+            "name": "Adventure Summary",
+            "entries": [
+              "This adventure begins when the party is attacked by members of the new Night Blades. ",
+              "After the fight, the characters investigate the scene of battle to learn more about the bandits. ",
+              "Sheriff Willowmane then recruits the characters to hunt down the new Night Blades and bring Ralavaz to justice. ",
+              "In Whitesparrow, the characters speak to the villagers to learn more of the history of Ralavaz and the Night Blades. ",
+              "They then make their way through a huge expanse of tangleweed to reach the Lonely Torch— the ruined watchtower that once served the Night Blades as a headquarters. ",
+              "But as they explore the ruins of the tower and face off against the new group of bandits dwelling there, the characters discover that Ralavaz has been imprisoned by his brother Gardren, disfigured but still alive. ",
+              "Learning that Ralavaz has changed his ways and is now trying to turn his brother away from a life of evil, the characters must make a choice about who to save, who to kill, and who to bring back to Whitesparrow to face justice. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Notable NPCs",
+            "entries": [
+              "{@npc Sheriff Ruth Willowmane|SFFA|page=8} (see Whitesparrow NPCs) : Sheriff of the village of Whitesparrow, Ruth knows that her younger brother, Dronder Willowmane, was slain by Ralavaz eleven years earlier.  But a lack of evidence meant that the bandit chieftain never paid the price for the crime. ",
+              "{@npc Gardren the Night Lord|SFFA|page=12}: The younger of the brothers who once led the Night Blades, Gardren is thought by most folk to be dead.  Ten years ago, the first incarnation of the Night Blades were cornered in a barn near the Lonely Torch watchtower.  Angry villagers set the structure ablaze, and only Ralavaz is thought to have made it out alive.  Gardren still lives, however, and is secretly leading a new gang of Night Blades when his brother returns.  Disfigured by the fire, Gardren doesn’t lead the gang for treasure or profit.  Rather, he wants to see the folk of Whitesparrow destroyed in the name of his dead friends and the injury done to him.  Among his many dark hobbies, Gardren has learned how to tame stirges—or at least to prevent them from attacking him.  He has a particularly nasty pet stirge he calls Heartspine, who is always with him. ",
+              "{@npc Ralavaz the Night Blade|SFFA|page=12}: Ralavaz is the elder of the brothers who led the Night Blades ten years ago, and the only known survivor of the fire that wiped the bandits out.  Having saved a noble’s son during a prison riot while awaiting execution, Ralavaz had his sentence commuted, and was recently released after ten years instead of paying with his life for his crimes.  He has returned to the ruined tower known as the Lonely Torch, where new members of the Night Blade bandits now dwell.  Unknown to most people, Ralavaz has repented his old ways and become a follower of the goddess of light.  He wishes to ask his brother’s forgiveness, and to turn Gardren away from murder and banditry. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Secrets and Clues",
+            "entries": [
+              {
+                "type": "list",
+                "items": [
+                  "Ten years ago, Ralavaz, Gardren, and the rest of the Night Blades were trapped in a barn near the Lonely Torch.  When angry villagers set the barn ablaze, only Ralavaz made it out, with Gardren and the rest of the trapped Night Blades dying in the fire. ",
+                  "In former days, many young men and women who could not make a living in Whitesparrow fell to banditry under the flag of the Night Blades. ",
+                  "The original Night Blades used the ruined watchtower known as the Lonely Torch for their headquarters.  The site is overgrown with an invasive poisonous tangleweed, which covers most of the hills around the tower. ",
+                  "A witness claims to have seen Night Blade bandits pissing on their own boots before making their way up to the Lonely Torch. ",
+                  "Dousing one’s boots with urine protects against the worst effects of the tangleweed and allows creatures to move through it. ",
+                  "When the Night Blades were destroyed, the area around Whitesparrow was relatively free from bandit attacks for many years.  Over the past year, a new group of bandits has appeared at the Lonely Torch, slowly building power by recruiting independent bandits to their cause— or slitting their throats. ",
+                  "A masked figure called the Night Lord has recently been revealed as the leader of this new group of bandits, making many see the group as a new incarnation of the Night Blades. ",
+                  "The Night Lord has been seen with some sort of red bird perched on his shoulder. ",
+                  "The Night Lord wears a golden mask, whose edges reveal that the skin of his neck is horribly scarred. ",
+                  "A cloud of bats has been seen flying over the Lonely Torch.  Witnesses have reported seeing the bats descend on a large elk that wandered too close to the tangleweed, swarming it and leaving only a bloodless, wrinkled husk behind. ",
+                  "A few weeks ago, a number of villagers saw someone they swear was Ralavaz the Night Blade returning to the Lonely Torch. "
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Customizing the Adventure",
+            "entries": [
+              "You can customize this adventure by replacing either Gardren or Ralavaz with NPCs from your campaign, or from the backgrounds of the characters. ",
+              "Gardren, Ralavaz, or both might have some relationship to one or more of the player characters, either by blood or by having crossed paths in the past. ",
+              "It might even be the case that, before his incarceration, Ralavaz had murdered a character’s family member, companion, or friend. ",
+              "The Night Blades can be customized to represent a particular faction of bandits from your own game world. ",
+              "Add details to the tower and the chambers below it to highlight a previous empire or some other layer of the history of your campaign. ",
+              "Customize the initial story hook by switching out the quest giver to an NPC the characters have worked with in the past. ",
+              "Any NPC who has reason to see the Night Blades (or the equivalent bandit group from your own campaign) as a threat could send the characters in to cut them down. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Start",
+            "entries": [
+              {
+                "type": "quote",
+                "entries": ["{@i Light rain falls, and a gloomy mist covers the landscape.  A large tree has fallen across the road, crushing a wagon under its great weight.  More fallen trees lie at the sides of the road.} "]
+              },
+              "Six {@monster bandits|MM} (Artur, Dobarn, Kirci, Dorra, Rhuda and Tasty Pete) lurk at the sides of the road, hiding near the fallen trees and ready to rob passersby. ",
+              "If the characters approach the wagon, one of the bandits shouts out,",
+              {
+                "type": "quote",
+                "entries": ["{@i \"Your weapons and belongings! Drop them to the ground and in the name of the Night Blades, we'll spare your lives!\"}"]
+              },
+              "If convinced or goaded into speaking, the bandits reveal that they are eager to look good in the eyes of their leader the Night Lord, who waits for their return at the Lonely Torch. ",
+              "When the battle is over, the characters can approach local villagers in Whitesparrow to learn some of the information regarding the Night Blades given in the “Secrets and Clues” section. ",
+              "Eventually, the party is approached by Sheriff Willowmane, who hires the characters to root out the Night Blades and bring their newly returned leader Ralavaz to justice. ",
+              {
+                "type": "inset",
+                "name": "Customizing the Bandit",
+                "entries": [
+                  "This adventure includes battles against a lot of bandits. ",
+                  "To keep things fresh, we’ve included a few names for these bandits. ",
+                  "Feel free to customize those foes by changing their appearance, gender, or weapons, and to substitute names of your own. ",
+                  "Consider tying some of these bandits to NPCs the characters might know or have met. ",
+                  "Describe some as being small and fast and others as large and strong. ",
+                  "Do what you can to make each bandit unique and interesting. "
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Notable Locations",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "The Tangles",
+                "entries": [
+                  "{@i Area Aspects:} Poisonous tangleweed, sinkholes, statues of ancient lords ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i A narrow path leads up to the broken stone walls of the Lonely Torch watchtower.  A two-foot-thick carpet of glistening green-and-violet weeds and thorny brambles surrounds the stony hill on which the tower sits.  Statues of forgotten nobility peer out from the tangled vines.} "]
+                  },
+                  "Tangleweed is an invasive, poisonous plant that can lash out against creatures passing close by. ",
+                  "Any creature that moves through the tangleweed without protection must succeed on a DC 13 Constitution saving throw or take 7 (2d6) poison damage and be {@condition poisoned} for 1 hour. ",
+                  "A character with a medical background can spend 10 minutes to aid the victim and attempt a DC 12 Wisdom (Medicine) check. ",
+                  "On a success, the afflicted character is no longer {@condition poisoned}. ",
+                  "Covering one’s boots in urine repels the tangleweed and negates the need for a saving throw. ",
+                  "A {@monster Shambling Mound|MM} (known as Strangleberries by the Night Blades) might be seen wandering through the tangleweed, but this creature is generally not aggressive. ",
+                  "Like the tangleweed, it can be repelled by urine. "
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Shattered Door",
+                "entries": [
+                  "{@i Area Aspects:} Ironbound wooden door, grinning gargoyle, narrow arrow slits ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i The thin path rising through the tangleweed leads up to an ironbound wooden door at the front of the ruined tower.  A stone gargoyle juts out from above the door, its mouth open to reveal that its tongue has been broken off.  Arrow slits are cut into the rough stone walls of the tower, angled toward the path where it leads up to the door} "]
+                  },
+                  "Two Night Blade {@monster Guards|MM} (Osgood and Pulk) are meant to watch over this door by peering out the arrow slits from inside the tower. ",
+                  "However, they are often either too drunk or too engaged in a game of knucklebones to notice anyone who doesn’t make a lot of noise while approaching. ",
+                  "The door is strong ironbound oak and is barred from the inside. ",
+                  "The magic that once animated the door’s gargoyle guardian has faded, but the residual spark of that magic allows the gargoyle to speak. ",
+                  "The gargoyle is lonely for company, and aware of much of the activity undertaken by those inside the tower. ",
+                  "The bandits have long since ignored the chatty guardian. "
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Broken Hall",
+                "entries": [
+                  "{@i Area Aspects:} Collapsed beams, broken floor, headless statue of warrior ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i Large oaken beams have collapsed from where they once supported the vaulted ceiling of this hall.  One has smashed through the floor, revealing basement passages below.  A large headless statue of a warrior, its greatsword clasped hilt-up in its hands, stands at the far side of the hall.  A stone staircase leads up to the higher floors of the tower.} "]
+                  },
+                  "In addition to the guards described above, four Night Blade {@monster bandits|MM} (Sanda Sixtoes, Polard the Mule, Julette, and Longtooth) sometimes reside in this hall when preparing for an imminent attack, or when they need to get out of the stagnant air in the basement levels. ",
+                  "They avoid the stirges above, which they call “the Night Lord’s children.” ",
+                  "While in this hall, the characters might hear commotion from below but they hear nothing but silence from above."
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Shadowed Reaches",
+                "entries": [
+                  "{@i Area Aspects:} Hanging curtains of moss, collapsed walls, painted ceiling ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i Sections of the walls of this upper level of the tower have collapsed from centuries of decay.  Much of the stone ceiling has likewise fallen, leaving the tower open to the elements above.  An old yet still beautiful fresco painting covers what remains of the ceiling, but much of it is shrouded by curtains of moss.} "]
+                  },
+                  "Ten {@monster Stirges|MM} lurk behind the cover of the moss, hoping that living creatures will come close enough to feed their insatiable appetites. ",
+                  "The Night Blades know to stay out of this chamber, since only Gardren is safe from attack by these monsters. "
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Sunken Cellars",
+                "entries": [
+                  "{@i Area Aspects:} Crumbling stone ceiling, wooden beam supports, ragged bedrolls and hammocks ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i The floor of the tower has collapsed, revealing stairs leading to a series of stone chambers below.  Cracked wooden support beams hold up the crumbling stone ceiling of the main chamber, whose walls are lined with hammocks and bedrolls.  A stone door, carved with an artful depiction of hooded priests, stands at the opposite end of the hall, while a natural tunnel leads off to the right.} "]
+                  },
+                  "Depending on the time of day, four Night Blade {@monster Bandits|MM} (Terra, Duke, Ashe Dragonknuckle, and Two-Cups) and two {@monster thugs|MM} (Victor and Kingsteeth) might be sleeping here. ",
+                  "They are generally not alert unless a significant amount of noise has been made upstairs. ",
+                  "The carved doorway leads into the lost shrine, while the natural tunnel leads to the mud pit. "
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Mud Pit",
+                "entries": [
+                  "{@i Area Aspects:} Slick mud walls, mud pool floor, drainpipe, knotted rope ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i A narrow walkway leads to the lip of a ten-foot-deep pit filled with mud.  An ancient drainpipe roughly two feet in diameter is closed off by steel bars and trickles fetid water into the pool.  A knotted rope hangs from an iron hook hammered into the natural stone wall.} "]
+                  },
+                  "Two Night Blade {@monster Bandits|MM} (Pelpe and Klive Yellowriver) guard this cavern while Ralavaz languishes in the mud, imprisoned and tormented here by his brother Gardren until he comes to his senses and demonstrates a willingness to return to his former life as a bandit and murderer. ",
+                  "One of the bandits has a large bag filled with a {@monster Swarm of Rats|MM}, which he uses to torment Ralavaz. ",
+                  "If attacked, the bandit dumps out this bag to add to the chaos. ",
+                  "If Ralavaz is rescued, he reveals that he returned to the Lonely Torch after finding out that his brother Gardren was alive and leading a new group of Night Blades. ",
+                  "Ralavaz had hoped to turn Gardren away from murder and banditry, but his failure to do so saw him incarcerated here. "
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Lost Throne",
+                "entries": [
+                  "{@i Area Aspects:} Kneeling armored statues, stone throne on dais, burning stone braziers, wide well leading down into shadow ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i Two hulking statues of faceless armored knights kneel in the corners of the room, facing the center of the chamber and a well there that leads down into the shadowy depths.  A stone throne sits upon a raised dais opposite the door.} "]
+                  },
+                  "Gardren, a {@monster Bandit Captain|MM}, and four Night Blade {@monster Bandits|MM} (Avrin, Ragia, Thorn, and Sasha) are usually found in this hall, sorting through recently stolen goods or planning their next attacks. ",
+                  "Gardren’s pet stirge Heartspine hides in the corner and attacks any character who attacks its master.  This stirge has 10 hit points and a Dexterity (Stealth) modifier of +5. ",
+                  "Gardren wields a {@item +1 shortsword|DMG} called {@item Nightculler|SFFA|page=12}. "
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Concluding the Adventure",
+            "entries": [
+              "This adventure concludes when the characters have removed Gardren and decided what to do with Ralavaz. ",
+              "Still wracked by guilt over his previous life and feeling responsible for the behavior of his brother, Ralavaz is willing to accept whatever punishment the characters or the folk of Whitesparrow seek for him. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Expanding the Adventure",
+            "entries": [
+              "The tower can have numerous hidden chambers beneath its upper levels, accessed by way of the hole in the throne room and expanding in multiple directions beneath the rocky hill. ",
+              "You can also replace the tower with the “Dark Abbey” location from Sly Flourish’s Fantastic Locations, dropping in many additional areas for the characters to explore. ",
+              "It’s also possible that the story of Ralavaz and Gardren doesn’t end with this adventure. ",
+              "Depending on how Ralavaz wants to make amends for his past crimes, he might have his own quests that he hopes to have the characters follow. "
+            ]
+          }
+        ],
+        "monsters": [
+          "{@monster bandit|MM}",
+          "{@monster shambling mound|MM}",
+          "{@monster guard|MM}",
+          "{@monster stirge|MM}",
+          "{@monster thug|MM}",
+          "{@monster swarm of rats|MM}",
+          "{@monster bandit captain|MM}"
+        ],
+        "items": [
+          "{@item Nightculler|SFFA|page=12}"
+        ]
+      }
+    },
+    {
+      "name": "The Dwarven Vault",
+      "id": "SFFA_ADV_THE_DWARVEN_VAULT",
+      "source": "SFFA",
+      "page": 17,
+      "level": {
+        "min": 2,
+        "max": 5
+      },
+      "summary": [
+        "Miners digging on Goldpeak Mountain recently broke into an ancient dwarven vault lost for centuries, and from which treasure and madness now flow. ",
+        "Monstrous attacks in the local area see the adventurers asked to investigate, leading them to the mines and the discovery of the ancient magic underlying the threat. "
+      ],
+      "adventureData": {
+        "contents": [
+          {
+            "type": "entries",
+            "name": "Adventure Summary",
+            "entries": [
+              "Miners digging on Goldpeak Mountain recently broke into an ancient dwarven vault lost for centuries. ",
+              "A strange dark-elven artifact within the vault once again calls out to terrible monsters in and around the mountain—and has begun to unleash those monsters against the village of Whitesparrow. ",
+              "The adventurers must make their way to the mountain and into the vault to discover what is causing monsters to rise, and to end the call of the artifact. ",
+              "Crazed {@monster dire wolves|MM} attack the villagers of Whitesparrow, and the sheriff asks the characters to investigate the strange assault. ",
+              "The investigation leads them to the Evensong farmhouse, where Feria Evensong is the lone survivor of an attack that claimed the rest of her family. ",
+              "A trail from the house can lead the characters to Goldpeak Mountain. ",
+              "Word around the village suggests that explorers at Goldpeak Mountain recently uncovered fantastic treasure from a long-lost mine. ",
+              "When the characters investigate, a recently abandoned excavation site shows where those explorers had been digging into old dwarven ruins now occupied by horrid creatures. ",
+              "Deeper in, the characters find the dwarven vault where the unlucky explorers unveiled a dark-elven statue whose magical song drives monsters mad. ",
+              "The characters are free to destroy the statue, recover it, bury it, or leave it be. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Notable NPCs",
+            "entries": [
+              "{@npc Feria Evensong|SFFA|page=17}: Feria is a local farmer and head of the Evensong household.  {@monster Dire wolves|MM} driven to madness by the magic in the dwarven ruins killed her family, and she barely escaped with her life. ",
+              "{@npc Barnak Rumblestone|SFFA|page=17}: A retired dwarf explorer and sage, Barnak knows the lore of the centuries-lost Deepriver dwarven clan. ",
+              "{@npc Grenwald Windcastle|SFFA|page=17}: The leader of the expedition that uncovered the lost dwarven ruins, Grenwald is now lost along with the rest of his crew in the mines of Goldpeak Mountain. ",
+              "{@npc Thomas Windcastle|SFFA|page=17}: The black sheep of the family, Thomas shares none of his brother Grenwald’s adventurous nature, and spends much of his time drinking at the Evershady Tavern.  He started working with the Goldpeak explorers a few weeks ago, but quit after something about the site began to unnerve him.  Thomas hasn’t heard from the expedition in a few days, and is just starting to get worried—but he doesn’t want to go back up there.  He can sketch out a rough map showing the route toward the explorers’ last known location, allowing the characters to get close enough to pick up the trail on their own. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Secrets and Clues",
+            "entries": [
+              {
+                "type": "list",
+                "items": [
+                  "Goldpeak Mountain got its name from the rich veins of gold once found within it.  Those veins have long since dried up, but hopeful prospectors continue to dig into the mountain in search of new riches. ",
+                  "The dwarves were the first to mine Goldpeak, raising structures outside the mountain and digging their mine tunnels deep within it centuries ago. ",
+                  "The dwarves are rumored to have also dug secret chambers deeper within the mountain.  In those caverns, they fought dark elves and recovered magic artifacts that they hid away in concealed vaults. ",
+                  "Centuries later, the dwarven vaults are long buried and forgotten, though the tapped-out dwarven mines remain.  Recently, Grenwald Windcastle and his crew dug deeper in search of veins of gold ore as yet untouched. ",
+                  "A week ago, Windcastle and his crew came back to the village of Whitesparrow boasting of great riches.  They paid for drinks with strange gold coins emblazoned with a dwarf helm and a battleaxe. ",
+                  "The coins once belonged to the Deepriver clan of dwarven explorers, who sought treasure and riches beyond the dwarven mines under the mountain. ",
+                  "The Deepriver clan once raided a dark elf outpost, finding and claiming great treasures there. "
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Customizing the Adventure",
+            "entries": [
+              "This adventure can fit into many different stories. ",
+              "The characters might run into dwarves or other travellers being stalked by the {@monster dire wolves|MM} from the start of the scenario. ",
+              "You might also consider tying the Evensong family to one of the backgrounds of the characters, perhaps making them childhood friends or old acquaintances. ",
+              "At the same time, the exploration of the mountain doesn’t require a connection to a village unless you want it to. ",
+              "The hook of helpless folk running from strange monsters that escaped from an old dwarven mine should be enough to draw heroic and curious characters into the adventure. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Start",
+            "entries": [
+              {
+                "type": "quote",
+                "entries": ["{@i A scream cuts through the day-to-day activity of the village of Whitesparrow, followed soon after by the howling of wolves.  A villager runs across the street but is no match for the speed of a huge wolf with boney ridges rising from its back that chases him down, then tears him in half.  Another dire wolf stalks between nearby buildings, seeking the blood of the villagers fleeing in terror.} "]
+              },
+              "Two {@monster Dire Wolves|MM} attack indiscriminately within the village. The only guard nearby is quickly dispatched by the wolves. ",
+              "During the fight, the dire wolves are unnaturally ferocious, not caring about the wounds they take and showing no fear of the characters. ",
+              "A character who succeeds on a DC 13 Wisdom (Animal Handling) check gets the sense that some magical force drives the wolves’ fury. ",
+              "A successful DC 14 Wisdom (Medicine) check or Intelligence (Investigation) check allows a character to assess the dried blood that streaks the wolves, suggesting that they’ve fought many battles over many days. ",
+              "{@npc Sheriff Ruth Willowmane|SFFA|page=8} asks the characters to investigate the attack and discover what would cause dire wolves to so brazenly enter the village. ",
+              "At this point, the characters might choose to ask around Whitesparrow about recent unusual happenings or follow the wolves’ trail out of the village. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Notable Locations",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "The Evensong Farm",
+                "entries": [
+                  "{@i Area Aspects:} Large waterwheel, slaughtered animals, bloody tracks ",
+                  "The characters can easily follow the trail of the dire wolves, which leads back toward the Evensong farm outside the village. ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i The smell of blood hangs in the air, and streaks of red stain the brook where it runs alongside the road.  Ahead, a large waterwheel turns in the bloodstained water, trailing small crimson waterfalls as it rises.  In addition to at least a dozen slain farm animals, two mutilated humanoid bodies float in the water nearby, caught on rocks.  Past the wheelhouse stands the Evensong farmhouse, its door smashed in.} "]
+                  },
+                  "As they draw closer, the characters see the terrified figure of Feria Evensong, owner of the farm, outside the farmhouse. ",
+                  "In shock and covered in blood, she cradles the mutilated body of one of her children. ",
+                  "When questioned, Feria reveals that she was in the fields when the attack came.  She hid from the dire wolves until they left the farm and headed for Whitesparrow. ",
+                  "The mutilated remains of one other child are in the house, while the bodies of Deren Evensong, Feria’s husband, and their eldest son float in the brook. ",
+                  "With a successful DC 12 Wisdom (Survival) check, the characters can follow the wolves’ bloody tracks to a game trail twisting through the woods. ",
+                  "That track eventually winds back to the lower reaches of Goldpeak Mountain. ",
+                  "More slaughtered animals can be found along the trail and the mountain’s slopes, allowing the characters to follow the wolves’ course back to a section of old dwarven ruins where the Windcastle expedition camped. ",
+                  {
+                    "type": "inset",
+                    "name": "Treasure",
+                    "entries": [
+                      "Searching the bodies reveals twelve silver coins embossed with a dwarf helm and a battleaxe. ",
+                      "A successful DC 14 Intelligence (History) check reveals that this was the symbol of the Deepriver dwarves, who resided in the nearby mountains two centuries past. ",
+                      "If she is asked, Feria says that the coins came from members of the Windcastle crew, who purchased flour from the Evensongs on their most recent trip back to the village. ",
+                      "The house also contains a small box with 42 sp and 92 cp, the meager long-term savings of the Evensongs. "
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Expedition Camp",
+                "entries": [
+                  "{@i Area Aspects:} Ancient dwarven ruins, ventilation shafts, signs of terrible slaughter ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i A mining camp sits within dwarven ruins that must be thousands of years old.  The head of a huge dwarven statue, split in half and lying on its side, serves as a  wall and shade for a set of tents and makeshift wooden buildings.  Steam rises from a series of narrow shafts cut into the rock, each of which appears to pierce deep into the earth.  The bloody remains of a number of humanoids are spread in a wide swath at the center of the camp.  Within the carnage, you can make out the head and arm of a dwarf still attached to part of a mutilated torso.} "]
+                  },
+                  "This campsite is where Grenwald Windcastle and his crew staged their expedition into the deep dwarven mines. ",
+                  "The ventilation shafts are too steep and narrow to be descended, but the main entrance to the mines is a short distance from the camp (see below). ",
+                  "The signs of slaughter here are a few days old. ",
+                  "A pair of {@monster death dogs|MM} lurk around the campsite, gnawing on the remains of the dwarven corpses and attacking any living creature that happens by. ",
+                  "During any fight, a successful DC 12 Wisdom (Animal Handling) check reveals that, like the dire wolves, the death dogs are acting even more violent than their monstrous nature would suggest. ",
+                  "An investigation of the site reveals that the carnage was likely caused by both the dire wolves and the death dogs, with signs showing that all those creatures entered and left the mines more than once. ",
+                  {
+                    "type": "inset",
+                    "name": "Treasure",
+                    "entries": [
+                      "Among the miners’ supplies is a lockbox armed with a dart trap. ",
+                      "The trap can be discovered with a successful DC 14 Intelligence (Investigation) check and disarmed with a successful DC 12 Dexterity (Sleight of Hand) check. ",
+                      "Failure on either check results in the dart firing: +4 to hit;  2 (1d4) piercing damage and 7 (2d6) poison damage. The lock on the lockbox can be picked with a successful DC 12 Dexterity check using thieves’ tools. ",
+                      "The box contains twenty-two gold bars worth 10 gp each. ",
+                      "Each bar is marked with the same helm-and-battleaxe insignia as the coins found at the Evensong farm and recalled by any villagers who had recent business with the Windcastle crew. ",
+                      "A successful DC 14 Intelligence (History) check reveals that the mark belonged to the Deepriver dwarves, who mined gold here two hundred years ago. "
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Deep Mines",
+                "entries": [
+                  "{@i Area Aspects:} Bestial remains, cracked supports, network of shafts, large fissure ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i A short distance away from the expedition camp, a network of deep mineshafts leads into the mountain, carved out over centuries.  Ancient cracked supports keep the ceilings of these shafts from collapsing.  Pools of fresh blood and piles of entrails mark spots where large numbers of predatory creatures have recently fought and fed on each other here.} "]
+                  },
+                  "A successful DC 13 Intelligence (Investigation) or Wisdom (Survival) check reveals that many of the creatures that fought here came to this area through crumbling side passages. ",
+                  "The survivors of those battles then left the cave. ",
+                  "Far down one shaft, a pair of iron rods spans a deep fissure whose bottom disappears into darkness below. ",
+                  "The fissure is twenty feet wide and can be crossed in any number of ways. ",
+                  "A character who tries to walk across the beam must succeed on a DC 12 Dexterity (Acrobatics) check. ",
+                  "On a failure, the character falls and strikes the iron bar, taking 3 (1d6) bludgeoning damage before grabbing on. ",
+                  "Any other reasonably safe approach requires no ability check to succeed. ",
+                  "Once the characters cross the fissure, they enter an area of numerous mineshafts leading off into different areas of the mountain. ",
+                  "Some have been blocked off with ancient timbers in response to collapses. ",
+                  "The signs of centuries of mining can be seen in the depths of the mountain, and the trail of bestial remains can be followed down deep to the recently uncovered entrance of a long-lost dwarven vault. "
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Vault Entryway",
+                "entries": [
+                  "{@i Area Aspects:} Huge dwarven statues, concealed halls, monstrous corpses, collapsed tunnels ",
+                  {
+                    "type": "quote",
+                    "entries": [
+                      "{@i Recent mining activity has collapsed the natural rock wall to reveal a vault once hidden behind it.  The smooth stone walls of this hidden chamber were clearly worked by skilled dwarf hands.  The ceiling arches upward, reinforced by crisscrossing beams of stone.  Another well-carved hall flanked by huge statues of armored dwarf warriors continues on at the far end of the chamber, while tunnels to both sides of the chamber show signs of having crumbled where they once led deeper into the mountain.  A few still-standing side chambers appear to have once held dwarven treasure, but a number of empty chests suggest that these areas were recently looted. }",
+                      "{@i In the main chamber, huge insectoid creatures are digging their mandibles into the thick green flesh of a dead six-legged lizard.  Another insectoid horror stands as still as a statue, its carapace turned to gray stone.  One of the living creatures lurches up, its mandibles spraying blood across the stone of the vault as it beholds you.  With a high-pitched shriek, it rushes over to attack.} "
+                    ]
+                  },
+                  "There were no monsters here when the Windcastle explorers first passed through. ",
+                  "But since the dwarves exposed the cursed singing statue and rekindled its dark magic, this chamber has become a pit of murder for the numerous monsters that have been drawn to the vault seeking the statue’s song. ",
+                  "Upon reaching the vault, those monsters immediately battle one another in a continuing game of king of the hill. ",
+                  "Two {@monster ankhegs|MM} are currently at the top of that hill, devouring the body of a {@monster basilisk|MM} they recently defeated. ",
+                  "The ankhegs attack any creatures that enter the chamber. ",
+                  "When the fighting has subsided, any character who succeeds on a DC 13 Wisdom (Perception) check hears a strange song echoing from the chamber to the north. ",
+                  "Chaotic characters might feel the song calling to them, filling their minds with the hint of a desire for bloodshed. ",
+                  "The northern hall is trapped by a clever dwarven mechanism of whirling scythes, empowered by glyphs of lightning triggered by hidden metal plates on the hall’s floor. ",
+                  "The corpse of a {@monster bugbear|MM} and two dwarves lie in the hall, their bodies cleanly hacked up and marked with electrical burns. ",
+                  "Any creature that steps into the hall triggers the trap, taking 7 (2d6) slashing damage and 14 (4d6) lightning damage. ",
+                  "A creature that succeeds on a DC 14 Dexterity saving throw takes no slashing damage and half the lightning damage. ",
+                  "A creature can detect the trap with a successful DC 14 Wisdom (Perception) check. ",
+                  "A successful DC 15 Dexterity check using thieves’ tools disables the trap. ",
+                  "If this check fails, the creature disarming the trap triggers it instead. ",
+                  {
+                    "type": "inset",
+                    "name": "Treasure",
+                    "entries": [
+                      "The two dwarves within the mess of corpses in the hall were Windcastle explorers. ",
+                      "The dwarves’ initial exploration of the formerly hidden vault saw them lay claim to the easily accessed treasure in the outer chambers, some of which they brought with them when they returned to Whitesparrow. ",
+                      "But the monsters drawn to the site and the deadly traps of the main chamber did them in when they returned to expand their exploration. ",
+                      "Two dwarven magic items — a {@item +1 shield|DMG} called {@item Bladecatcher|SFFA|page=17} and a {@item +1 battleaxe|DMG} called {@item Ironhewer|SFFA|page=17} — can be found within the mass of corpses. ",
+                      "The wielder of Ironhewer gains advantage on ability checks made to break down doors or smash inanimate objects. ",
+                      "Feel free to change this battleaxe to a weapon type more suitable to the characters. ",
+                      "The dwarf corpses also carry small leather bags containing a total of 24 pp, 92 gp, and 162 sp (much of it in the same style as the dwarven gold seen earlier), along with a bag of ten black jaspers worth 10 gp each. "
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "entries",
+                "name": "Chamber of the Singing Statue",
+                "entries": [
+                  "{@i Area Aspects:} Obsidian singing statue, ornate fountain, rippling and hypnotic black liquid, iron-bound chests ",
+                  {
+                    "type": "quote",
+                    "entries": ["{@i An alluring song echoes from this circular vaulted chamber.  An obsidian statue depicting a beautiful elf woman stands in the center of a huge pool of opaque black liquid.  The magical song is emanating from the statue, sending rippling waves along the liquid in hypnotic patterns.  Two towering bronze statues depicting armored dwarves stand on opposite sides of the chamber, while six large ironbound chests sit on daises along the wall.  Two of those chests have been broken open, the coins they hold spilling out like gleaming rivers.  The remains of a mutilated dwarf are spread between the two chests, his dried black blood staining the stone floor and the broken axe close at hand.} "]
+                  },
+                  "The black pool is deep enough to conceal a {@monster Chuul|MM} that was drawn to this chamber by the statue’s song. ",
+                  "With its ability to detect magic, it enjoys the wonderful feeling of the magical energy flowing off the statue. ",
+                  "The chuul senses when creatures enter the room and rises to attack. ",
+                  "The dwarf remains are those of Grenwald Windcastle, who was killed by the chuul. ",
+                  "The singing of the statue and the rippling of the water can hypnotize those who move too close. ",
+                  "Any creature that ends its turn within 5 feet of the pool must succeed on a DC 15 Wisdom saving throw or become enthralled for 1 minute, as though under the effect of a {@spell confusion} spell. ",
+                  "Once a creature succeeds on a saving throw against this effect, it can no longer be affected by the pool. ",
+                  "A successful DC 15 Intelligence (History or Investigation) check reveals that the statue is of dark-elven make. ",
+                  "Whether its original purpose was as a siege weapon of some sort or a cursed gift to give to one’s enemies remains unclear. ",
+                  "With a successful DC 14 Intelligence (Arcana) check, a character determines that the statue draws monsters of low Intelligence to it, drives them insane, and sends them off into the world filled with bloody rage. ",
+                  "The longer the statue sings, the more powerful the monsters that come to its call. ",
+                  "Three of the chests in the room (one of the two already opened plus two more of your choice) are sitting on delicate pressure plates that trigger in response to any attempt to open them. ",
+                  "These traps cause the two dwarven statues to exhale a cloud of poison that fills the room, equivalent to a {@spell Cloudkill|PHB} spell (DC 15). ",
+                  "The traps can be detected with a successful DC 15 Wisdom (Perception) check and disarmed with a successful DC 16 Dexterity check using thieves’ tools. ",
+                  "Failure triggers the trap. ",
+                  {
+                    "type": "inset",
+                    "name": "Treasure",
+                    "entries": [
+                      "The three untrapped chests contain 2,342 cp, 452 sp, 243 gp, 23 pp, an assortment of gemstones worth a total of 100 gp, and a golden dwarven {@item +1 warhammer|DMG} called {@item Sunrise|SFFA|page=17}. ",
+                      "A character who makes a successful attack with the warhammer can choose to have the attack deal an extra 2d6 radiant damage. ",
+                      "Once this feature is used, it can’t be used again until the next dawn. ",
+                      "Feel free to change this warhammer to another weapon type more applicable to the characters. ",
+                      "The three trapped chests contain an additional mix of coins, bars, and gems worth a total of 1,425 gp. "
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Concluding the Adventure",
+            "entries": [
+              "Within the final chamber, the characters find a large black drapery imbued with magic that masks the sound of anything it covers. ",
+              "Originally placed over the statue for safety by the dwarves who built the vault, the drapery was removed by the Windcastle explorers, who didn’t understand its purpose. ",
+              "Before they depart the ruins, the characters can cover the statue to stop its magic calling monsters to it, then unleashing them against the folk of the surrounding countryside. ",
+              "They can also destroy the statue, or simply leave it as it is. ",
+              "Preventing others from discovering the statue and reactivating it might be accomplished by collapsing the closest tunnels to bury the vault once again. ",
+              "But the characters might first journey even deeper into the caves, discovering areas newly exposed by the monsters drawn to the statue. ",
+              "They might also decide whether to take the treasure, leave it, or give it to Feria Evensong and other locals who can be revealed to have suffered similar attacks. ",
+              "If the characters attempt to take the statue as plunder and don’t cover it with the magic drapery, monsters of ever-greater power are drawn to them in a rage. ",
+              "These creatures appear from the surrounding wilderness or burrow up from the earth—ending, perhaps, with a {@monster purple worm|MM} attack. "
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Expanding the Adventure",
+            "entries": [
+              "The dwarven ruins and the mineshafts can lead the characters on to many further adventures. ",
+              "You can add chambers from the “Red Keep” location in {@i Sly Flourish’s Fantastic Locations} to reveal that the dwarves originally established their mines in an area used as a prison for an immortal being. "
+            ]
+          }
+        ],
+        "monsters": [
+          "{@monster dire wolf|MM}",
+          "{@monster death dog|MM}",
+          "{@monster ankheg|MM}",
+          "{@monster chuul|MM}",
+          "{@monster basilisk|MM}",
+          "{@monster bugbear|MM}",
+          "{@monster purple worm|MM}"
+        ],
+        "items": [
+          "{@item Bladecatcher|SFFA|page=17}",
+          "{@item Ironhewer|SFFA|page=17}",
+          "{@item Sunrise|SFFA|page=17}"
+        ]
+      }
+    },
+    {
+      "name": "The Well of the Black Sun",
+      "id": "SFFA_ADV_THE_WELL_OF_THE_BLACK_SUN",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "The mine known as Deepfathom Well is the only source of the lucrative alchemical substance voidwater. ",
+        "However, a number of recent murders—including the immolation of a head miner—have closed the operation, and the mine’s owner hires the characters to investigate. ",
+        "As they explore the mysteries buried deep beneath the ground, the characters discover the dark power lurking in the mine—and expose the activities of a secret cult that seeks to control that power. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "Rosethorn",
+      "id": "SFFA_ADV_ROSETHORN",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "A particularly intelligent goblin named Rosethorn has brought the local goblin tribes under his control, and is leading them in devastating raids against trade wagons and farm folk. ",
+        "When the local sheriff seeks help to put an end to these dastardly robberies, the characters uncover multiple levels of mystery and subterfuge, and discover the secret behind Rosethorn’s villainous mind. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "The Gleam in the King’s Eye",
+      "id": "SFFA_ADV_THE_GLEAM_IN_THE_KINGS_EYE",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "Lord Marlin Whitesparrow hires the characters to join him as he explores the lost chambers beneath his ancient keep. ",
+        "His goal is to claim the Crown of the First Lord—a lost family relic that might help solidify his rule. ",
+        "But within the forgotten spaces beneath the keep, Whitesparrow and the characters will discover family histories that should have been left alone. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "The Crashed Palace",
+      "id": "SFFA_ADV_THE_CRASHED_PALACE",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "When a celestial palace falls to earth, its destruction unleashes corrupting magic and a bearded devil intent on summoning its master—a powerful pit fiend from the hellish plane of Dyn. ",
+        "A mortally wounded archon begs the characters to travel to the palace and prevent the summoning of this fiend, but dark magic and monstrous creatures transformed by the devil’s rituals stand in their way. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "The Flesh Eaters",
+      "id": "SFFA_ADV_THE_FLESH_EATERS",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "Lizardfolk tribes living near settled lands traditionally keep to themselves. ",
+        "So when a lizardfolk attack leaves local settlers dead, the characters are asked to investigate. ",
+        "After discovering that an ancient lizardfolk cult is responsible, the characters must track the cannibal cultists back to their lair, revealing the dark magic that has corrupted the lizardfolk, and standing against their powerful leader. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "The Queen of Red Water",
+      "id": "SFFA_ADV_THE_QUEEN_OF_RED_WATER",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "At an old dwarven dam, a bugbear matriarch has found the key to holding an entire valley hostage by stopping the flow of the local river. ",
+        "With farms on the verge of collapse from the sudden drought, the characters are charged with negotiating with the bugbear’s agents on behalf of the local village. ",
+        "They must then infiltrate the dam to identify the full scope of the bugbear chieftain’s threats. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "The Cult of Dusk",
+      "id": "SFFA_ADV_THE_CULT_OF_DUSK",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "A deadly attack in the local village leads to the revelation that a dark cult is seeking forbidden magic in the nearby ruins known as the forgotten library. ",
+        "The characters must pursue the cultists and their mysterious leader into the ruins, trying to prevent a ritual that might pull the world into eternal night. "
+      ],
+      "adventureData": { "contents": [] }
+    },
+    {
+      "name": "Gloom",
+      "id": "SFFA_ADV_GLOOM",
+      "source": "SFFA",
+      "page": 4,
+      "level": { "min": 2, "max": 5 },
+      "summary": [
+        "Lord Whitesparrow’s spoiled nephew and heir, Pennin, is marked for death, and the characters are tasked with discovering who is behind the threat. ",
+        "Even as they learn that Pennin recently desecrated a local temple, murder and mayhem lead the characters to discover that one of the temple’s priests is a former assassin of great and terrible renown—and that she has kidnapped Pennin to seek bloody revenge. "
+      ],
+      "adventureData": { "contents": [] }
+    }
+  ],
+  "npc": [
+    {
+      "name": "Sheriff Ruth Willowmane",
+      "id": "SFFA_NPC_RUTH_WILLOWMANE",
+      "source": "SFFA",
+      "page": 8,
+      "entries": [
+        "Sheriff Ruth Willowmane is the true protector and unofficial leader of the village. ",
+        "The middle-aged sheriff has served the people of Whitesparrow for twenty years, after serving as a soldier for fifteen years before that. ",
+        "She has a good heart and loves the people of the village, who always look to her when trouble arises. ",
+        "She typically has little patience for adventurers, seeing them as disruptive influences on the normal flow of village life—and fearing the trouble they often bring with them. ",
+        "Still, she understands that the threats represented by the odd events that often transpire around the village require special skills to deal with, and she looks to those with a proven ability to handle themselves to deal with those threats. ",
+        "The sheriff has eight {@monster guards|MM} under her employ and can call upon another twelve conscripted guards when needed. ",
+        "For 'The Night Blade' adventure: Sheriff of the village of Whitesparrow, Ruth knows that her younger brother, Dronder Willowmane, was slain by Ralavaz eleven years earlier.  But a lack of evidence meant that the bandit chieftain never paid the price for the crime. "
       ]
     },
     {
-      "type": "section",
-      "name": "The Dwarven Vault",
-      "id": "fa-dwarven-vault",
-      "entries": []
+      "name": "Lord Marlin Whitesparrow",
+      "id": "SFFA_NPC_MARLIN_WHITESPARROW",
+      "source": "SFFA",
+      "page": 8,
+      "entries": [
+        "Lord Marlin Whitesparrow is the young lord of the village and the lands around it. ",
+        "He resides in the old castle that sits on a hill above the village, an inheritance passed down through his family for generations. ",
+        "Marlin’s father died in his fifties and left his thirty-year old son in charge. ",
+        "Despite his young age, Lord Whitesparrow is a well-respected leader, though he has little patience for the daily drudgery of village life. ",
+        "Marlin has no wife or children, but the lord has adopted his young nephew Pennin as ward after the boy’s parents died of influenza when he was a baby. ",
+        "Pennin will succeed Marlin if the lord dies. If both die, the Whitesparrow line is broken and Sheriff Ruth Willowmane becomes the new elected leader of the village. "
+      ]
     },
     {
-      "type": "section",
-      "name": "The Well of the Black Sun",
-      "id": "fa-black-sun",
-      "entries": []
+      "name": "Amanda Jess",
+      "id": "SFFA_NPC_AMANDA_JESS",
+      "source": "SFFA",
+      "page": 8,
+      "entries": [
+        "Owner of the Summerspring Inn and the Evershady Tavern, Amanda Jess is the dominant entrepreneur in Whitesparrow. ",
+        "She has three sons— Kinzlow, Balaham, and Wess—who work at the tavern and inn. ",
+        "Amanda enjoys meeting visitors to Whitesparrow, and she has an eye for people. ",
+        "She has a knack for knowing exactly what questions to ask in order to dig deep into newcomers’ backgrounds, and always seeks a way to find opportunities for business. ",
+        "Some whisper that Amanda was once a spy for a powerful organization before she retired to the quiet life of Whitesparrow. "
+      ]
     },
     {
-      "type": "section",
-      "name": "Rosethorn",
-      "id": "fa-rosethorn",
-      "entries": []
+      "name": "Gavun Grayhorn",
+      "id": "SFFA_NPC_GAVUN_GRAYHORN",
+      "source": "SFFA",
+      "page": 8,
+      "entries": [
+        "A former adventurer, Gavun is the proprietor of Grayhorn Outfitters. ",
+        "He once traveled far and wide across many lands, but fortune always eluded him. ",
+        "When one adventure left him the only survivor of his group, Gavun retired to start his business and serve the many trading caravans passing through the local area— just as those caravans began to turn to safer paths that took them away from Whitesparrow. ",
+        "Such is the luck of Gavun Grayhorn. He runs the shop with his wife Arianne, whose family has dwelled in Whitesparrow for generations. "
+      ]
     },
     {
-      "type": "section",
-      "name": "The Gleam in the King’s Eye",
-      "id": "fa-gleam-king-eye",
-      "entries": []
+      "name": "Elovyn Sorrowsong",
+      "id": "SFFA_NPC_ELOVYN_SORROWSONG",
+      "source": "SFFA",
+      "page": 8,
+      "entries": [
+        "An elf priest of the Temple of Light, Elovyn found herself out of political favor in her homeland and was sent on a onehundred-year pilgrimage into the lands of humankind. ",
+        "Though she still resents being sent on the pilgrimage, and the decades she has spent in Whitesparrow as a result, she has come to care very much for the people of the village. ",
+        "She greatly enjoys the empowerment that comes with being Whitesparrow’s only elf in a position of authority. ",
+        "Because of this, she is initially distrustful of other elves who visit the village, afraid they will take away from her mystique. "
+      ]
     },
     {
-      "type": "section",
-      "name": "The Crashed Palace",
-      "id": "fa-crashed-palace",
-      "entries": []
+      "name": "Philcock Deadcleft",
+      "id": "SFFA_NPC_PHILCOCK_DEADCLEFT",
+      "source": "SFFA",
+      "page": 8,
+      "entries": [
+        "The manager of the Summerspring Inn and a longtime employee of Amanda Jess, Deadcleft is a small, ugly rumormonger who spies on his patrons. ",
+        "Yet for reasons unknown, Amanda has always protected and defended him. ",
+        "Deadcleft wears clothes of noble cut but in poor condition, and always smells terrible. "
+      ]
     },
     {
-      "type": "section",
-      "name": "The Flesh Eaters",
-      "id": "fa-flesh-eaters",
-      "entries": []
+      "name": "Gardren the Night Lord",
+      "id": "SFFA_NPC_GARDREN_THE_NIGHT_LORD",
+      "source": "SFFA",
+      "page": 12,
+      "monster": "Bandit Captain",
+      "entries": [
+        "The younger of the brothers who once led the Night Blades, Gardren is thought by most folk to be dead. ",
+        "Ten years ago, the first incarnation of the Night Blades were cornered in a barn near the Lonely Torch watchtower. ",
+        "Angry villagers set the structure ablaze, and only Ralavaz is thought to have made it out alive. ",
+        "Gardren still lives, however, and is secretly leading a new gang of Night Blades when his brother returns. ",
+        "Disfigured by the fire, Gardren doesn’t lead the gang for treasure or profit. ",
+        "Rather, he wants to see the folk of Whitesparrow destroyed in the name of his dead friends and the injury done to him. ",
+        "Among his many dark hobbies, Gardren has learned how to tame {@monster stirges|MM}—or at least to prevent them from attacking him. ",
+        "He has a particularly nasty pet stirge he calls Heartspine, who is always with him.  Heartspine has 10 hit points and a Dexterity (Stealth) modifier of +5. ",
+        "Gardren wields a {@item +1 shortsword|DMG} called {@item Nightculler|SFFA|page=12}. "
+      ]
     },
     {
-      "type": "section",
-      "name": "The Queen of Red Water",
-      "id": "fa-queen-red-water",
-      "entries": []
+      "name": "Ralavaz the Night Blade",
+      "id": "SFFA_NPC_RALAVAZ_THE_NIGHT_BLADE",
+      "source": "SFFA",
+      "page": 12,
+      "entries": [
+        "Ralavaz is the elder of the brothers who led the Night Blades ten years ago, and the only known survivor of the fire that wiped the bandits out. ",
+        "Having saved a noble’s son during a prison riot while awaiting execution, Ralavaz had his sentence commuted, and was recently released after ten years instead of paying with his life for his crimes. ",
+        "He has returned to the ruined tower known as the Lonely Torch, where new members of the Night Blade bandits now dwell. ",
+        "Unknown to most people, Ralavaz has repented his old ways and become a follower of the goddess of light. ",
+        "He wishes to ask his brother’s forgiveness, and to turn Gardren away from murder and banditry. "
+      ]
     },
     {
-      "type": "section",
-      "name": "The Cult of Dusk",
-      "id": "fa-cult-dusk",
-      "entries": []
+      "name": "Feria Evensong",
+      "id": "SFFA_NPC_FERIA_EVENSONG",
+      "source": "SFFA",
+      "page": 17,
+      "entries": [
+        "Feria is a local farmer and head of the Evensong household. ",
+        "{@monster Dire wolves|MM} driven to madness by the magic in the dwarven ruins killed her family, and she barely escaped with her life. "
+      ]
     },
     {
-      "type": "section",
-      "name": "Gloom",
-      "id": "fa-gloom",
-      "entries": []
+      "name": "Barnak Rumblestone",
+      "id": "SFFA_NPC_BARNAK_RUMBLESTONE",
+      "source": "SFFA",
+      "page": 17,
+      "entries": [
+        "A retired dwarf explorer and sage, Barnak knows the lore of the centuries-lost Deepriver dwarven clan. "
+      ]
+    },
+    {
+      "name": "Grenwald Windcastle",
+      "id": "SFFA_NPC_GRENWALD_WINDCASTLE",
+      "source": "SFFA",
+      "page": 17,
+      "entries": [
+        "The leader of the expedition that uncovered the lost dwarven ruins, Grenwald is now lost along with the rest of his crew in the mines of Goldpeak Mountain. "
+      ]
+    },
+    {
+      "name": "Thomas Windcastle",
+      "id": "SFFA_NPC_THOMAS_WINDCASTLE",
+      "source": "SFFA",
+      "page": 17,
+      "entries": [
+        "The black sheep of the family, Thomas shares none of his brother Grenwald’s adventurous nature, and spends much of his time drinking at the Evershady Tavern. ",
+        "He started working with the Goldpeak explorers a few weeks ago, but quit after something about the site began to unnerve him. ",
+        "Thomas hasn’t heard from the expedition in a few days, and is just starting to get worried—but he doesn’t want to go back up there. ",
+        "He can sketch out a rough map showing the route toward the explorers’ last known location, allowing the characters to get close enough to pick up the trail on their own. "
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Nightculler",
+      "id": "SFFA_ITEM_NIGHTCULLER",
+      "source": "SFFA",
+      "page": 12,
+      "type": "SW",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "baseItem": "shortsword|PHB",
+      "bonusWeapon": "+1",
+      "entries": [
+        "Gardren wields a +1 shortsword called Nightculler — a silvered weapon with a draconic pommel and a line of black onyx along the fuller of the blade. ",
+        "A character attuned to the sword is able to cast the {@spell darkness} spell, requiring no components. ",
+        "Once this feature is used, it can’t be used again until the next dawn. "
+      ]
+    },
+    {
+      "name": "Bladecatcher",
+      "id": "SFFA_ITEM_BLADECATCHER",
+      "source": "SFFA",
+      "page": 17,
+      "type": "SH",
+      "rarity": "uncommon",
+      "baseItem": "shield|PHB",
+      "bonusAc": "+1",
+      "entries": [
+        "A dwarven magic {@item +1 shield|DMG} called Bladecatcher. "
+      ]
+    },
+    {
+      "name": "Ironhewer",
+      "id": "SFFA_ITEM_IRONHEWER",
+      "source": "SFFA",
+      "page": 17,
+      "type": "BA",
+      "rarity": "uncommon",
+      "baseItem": "battleaxe|PHB",
+      "bonusWeapon": "+1",
+      "entries": [
+        "A dwarven magic {@item +1 battleaxe|DMG} called Ironhewer. ",
+        "The wielder of Ironhewer gains advantage on ability checks made to break down doors or smash inanimate objects. "
+      ]
+    },
+    {
+      "name": "Sunrise",
+      "id": "SFFA_ITEM_SUNRISE",
+      "source": "SFFA",
+      "page": 17,
+      "type": "WH",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "baseItem": "warhammer|PHB",
+      "bonusWeapon": "+1",
+      "entries": [
+        "A golden dwarven {@item +1 warhammer|DMG} called Sunrise. ",
+        "A character who makes a successful attack with the warhammer can choose to have the attack deal an extra {@damage 2d6} radiant damage. ",
+        "Once this feature is used, it can’t be used again until the next dawn. "
+      ]
     }
   ]
 }
