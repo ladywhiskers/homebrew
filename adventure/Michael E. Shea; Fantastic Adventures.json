@@ -6,9 +6,10 @@
         "abbreviation": "SFFA",
         "full": "Sly Flourish's Fantastic Adventures",
         "authors": ["Michael E. Shea"],
+        "convertedBy": ["ladywhiskers"],
         "version": "1.0.0",
         "url": "https://slyflourish.com/fantastic_adventures_kickstarter.html",
-        "license": "NONE",
+        "license": "NONE"
       }
     ],
     "dateAdded": 1717524115000,
