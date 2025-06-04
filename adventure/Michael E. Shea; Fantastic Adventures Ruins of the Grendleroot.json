@@ -1,100 +1,309 @@
 {
-  "data": [
-    {
-      "type": "section",
-      "name": "Introduction to Ruins of the Grendleroot",
-      "id": "rog-intro",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Deepdelver’s Enclave",
-      "id": "rog-deepdelvers-enclave",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "History of Blackclaw Mountain",
-      "id": "rog-history-blackclaw",
-      "entries": []
-    },
+	"_meta": {
+		"sources": [
+			{
+				"json": "Grendleroot",
+				"abbreviation": "RotG",
+				"full": "Ruins of the Grendleroot",
+				"authors": ["Michael E. Shea"],
+				"convertedBy": ["ladywhiskers"],
+				"version": "1.0.0",
+				"url": "https://slyflourish.com/ruins_of_the_grendleroot.html",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1670000000,
+		"dateLastModified": 1670000000
+	},
+	"adventure": [],
+	"book": [
+		{
+			"name": "Ruins of the Grendleroot",
+			"id": "RUINSOFTHEGRENDLEROOT",
+			"source": "Grendleroot",
+			"contents": [
+				{
+					"type": "chapter",
+					"name": "About this Book",
+					"entries": [
+						"Endless discoveries within the forgotten caverns, mysterious vaults, and ancient ruins of Blackclaw Mountain await those heroes willing to brave the adventures found in these pages.",
+						{
+							"type": "entries",
+							"name": "Philosophies of this Book",
+							"entries": [
+								"This book is built around a number of core philosophies, all intended to help you, the Gamemaster, get the most out of it—and to help you run great games with your players."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ruins of the Grendleroot",
+							"entries": [
+								"The mountain known as Blackclaw, home to the ruins of the Grendleroot, rises at the center of a remote valley."
+							]
+						},
+						{
+							"type": "list",
+							"name": "Five Secrets of the Grendleroot",
+							"items": [
+								"The stone and iron of the mountain holds great power. Humanoids and monsters alike have explored the caverns and chambers of Blackclaw for millennia, drawn to this mysterious energy."
+							]
+						}
+					]
+				},
+				{
+					"type": "chapter",
+					"name": "Deepdelver’s Enclave",
+					"entries": []
+				},
+				{
+					"type": "chapter",
+					"name": "The History of Blackclaw Mountain",
+					"entries": []
+				},
 
-    <!-- Adventures start here -->
+				{
+					"type": "chapter",
+					"name": "Appendix A: Blackclaw Mountain Player’s Guide",
+					"entries": []
+				},
+				{
+					"type": "chapter",
+					"name": "Appendix B: Blackclaw Mountain Gamemaster’s Toolkit",
+					"entries": []
+				},
+				{
+					"type": "chapter",
+					"name": "Appendix C: The Rise of the Black Star",
+					"entries": []
+				}
+			]
+		}
+	],
+	"adventureData": [
+		{
+			"id": "RUINSOFTHEGRENDLEROOT_ADT_CALLOFSTARSONGTOWER",
+			"source": "Grendleroot",
+			"name": "The Call of Starsong Tower",
+			"level": "1st-level characters",
+			"page": 35,
+			"contents": [
+				{
+					"type": "entries",
+					"name": "Adventure Summary",
+					"entries": [
+						"The adventure begins when Bailon the Beardless, an elder of Deepdelver’s Enclave, asks the characters for help investigating a strange energy emanating from Starsong Tower. For long years, the tower served as a beacon of light in the cavern, but it went dark with the coming of the Grendleroot. However, just three days ago, a beam of violet light erupted from the tower, pulsing up to a large spherical crystal in the ceiling of the cavern. The corrupt magic of this light has brought the normally cheerful folk of the enclave into a state of worry. Deepdelver’s Enclave is home to many adventurers and retired adventurers, but its most renowned groups are all presently away on missions of exploration in the mountain. The one group that was in the enclave entered the ruined tower in the hope of discovering the source of the violet light and disabling it—but none of its members have yet returned. Bailon hopes that the characters can investigate to discover the fate of the previous adventurers, and disable the strange violet light creating chaos in the enclave."
+					]
+				},
 
-    {
-      "type": "section",
-      "name": "The Call of Starsong Tower",
-      "id": "rog-starsong-tower",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Temple of the Forgotten God",
-      "id": "rog-temple-forgotten-god",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "The Spire of Violet Falls",
-      "id": "rog-violet-spire",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "A Fistful of Copper",
-      "id": "rog-fistful-copper",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Shatter",
-      "id": "rog-shatter",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Chuul",
-      "id": "rog-chuul",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "The Cell",
-      "id": "rog-cell",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Vault of the White Queen",
-      "id": "rog-white-queen",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Children of the Red Rose",
-      "id": "rog-red-rose",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Seed of the Black Cathedral",
-      "id": "rog-black-cathedral",
-      "entries": []
-    },
+				{
+					"type": "entries",
+					"name": "Notable NPCs",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Bailon the Beardless",
+							"entries": [
+								"A former explorer who has spent most of his life in Blackclaw, Bailon is a chaotic good male dwarf veteran considered by many to be the primary elder of Deepdelver’s Enclave. Kind and mischievous in equal measure, Bailon believes that self-reliance is the most important trait for anyone who wishes to explore the mountain. He is the first NPC the characters meet in this adventure."
+							]
+						}
+					]
+				},
 
-    <!-- Appendices -->
+				{
+					"type": "list",
+					"name": "Secrets and Clues",
+					"items": [
+						"Centuries ago, Starsong Tower gave off a beam of radiant light that penetrated a great crystal hanging high in the cavern above. The crystal’s light would wax and wane to mark the passage of day and night in the world outside the mountain. With the coming of the Grendleroot and the destruction of the city of Shadowreach in the cavern beneath the tower, the crystal went dark. However, three days ago, it began to pulse with an unsettling violet light."
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Rune Titan (Mage Variant)",
+			"source": "Grendleroot",
+			"page": 24,
+			"size": "G",
+			"type": "giant",
+			"alignment": ["N"],
+			"ac": [
+				{
+					"ac": 15,
+					"from": ["natural armor"]
+				}
+			],
+			"hp": {
+				"average": 263,
+				"formula": "17d20 + 85"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 23,
+			"dex": 15,
+			"con": 20,
+			"int": 18,
+			"wis": 12,
+			"cha": 9,
+			"senses": ["darkvision 60 ft."],
+			"passive": 11,
+			"languages": ["Giant", "Common"],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+					]
+				},
+				{
+					"name": "Innate Spellcasting (Psionics)",
+					"entries": [
+						"The rune titan is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has the following wizard spells prepared:",
+						"Cantrips (at will): {@spell light}, {@spell mage hand}, {@spell prestidigitation}, {@spell fire bolt}",
+						"1st level (4 slots): {@spell detect magic}, {@spell mage armor}, {@spell magic missile}, {@spell shield}",
+						"2nd level (3 slots): {@spell misty step}, {@spell suggestion}",
+						"3rd level (3 slots): {@spell counterspell}, {@spell fireball}, {@spell fly}",
+						"4th level (3 slots): {@spell greater invisibility}, {@spell ice storm}",
+						"5th level (1 slot): {@spell cone of cold}"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": ["The giant makes two greatclub attacks."]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 15 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 60/240 ft., one target. {@h}28 ({@damage 4d10 + 6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 17} Strength saving throw or be knocked prone."
+					]
+				}
+			],
+			"description": "Living rune titans spend most of their time embedded in the rock of the mountain, trying to draw what energy they can from the Grendleroot.",
+			"environment": ["mountain", "underdark"]
+		}
+	],
+	"item": [
+		{
+			"name": "Goldkiss",
+			"source": "Grendleroot",
+			"page": 43,
+			"type": "M",
+			"weaponCategory": "martial",
+			"baseItem": "longsword|PHB",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				"This gold-hilted longsword features the sword-and-blazing-sun symbol of the Order of the White Sun. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"While attuned to this weapon, you can use an action to cast a version of the {@spell burning hands} spell (save DC 13) that deals radiant damage instead of fire damage. This property of the weapon can't be used again until the next dawn."
+			],
+			"lootTables": ["Magic Item Table F"]
+		},
+		{
+			"name": "Seed of the Grendleroot",
+			"source": "Grendleroot",
+			"page": 143,
+			"rarity": "artifact",
+			"reqAttune": "by a creature who knows its control word or by special Grendleroot connection",
+			"type": "SCF",
+			"entries": [
+				"The Seed of the Grendleroot is a black stone the size of a human fist that pulses when the beam from the Control Orb (Area 5 of the Black Cathedral) strikes it. It is an artifact with the potential to control the Grendleroot.",
+				"A creature attuned to the seed, or who knows its control word, can use an action to call forth a 6-foot-high Grendleroot spire that shoots up through the floor under a target of their choice within 50 feet of them. The target must make a {@dc 16} Dexterity saving throw, taking {@damage 4d8} piercing damage on a failed save, or half as much damage on a successful one. The Grendleroot spire that erupts from the ground becomes a permanent object and destroys any other mundane object through which it passes.",
+				"If the seed is not placed back in the beam of the Control Orb within 10 minutes of its removal, the Grendleroot begins to move, twisting its spires and causing untold damage throughout Blackclaw. Within days, it will shatter the whole mountain.",
+				"Replacing the Seed of the Grendleroot requires a successful {@dc 16} Dexterity (Sleight of Hand) or Intelligence (Arcana) check. On a failure, the character making the check takes {@damage 6d6} lightning damage as the seed is replaced. The seed can also be replaced safely using a {@spell mage hand} cantrip or similar magic."
+			],
+			"attachedSpells": ["mage hand|PHB"]
+		}
+	],
+	"background": [
+		{
+			"name": "Blackclaw Deepdelver",
+			"source": "Grendleroot",
+			"page": 146,
+			"skillProficiencies": ["Perception", "Survival"],
+			"toolProficiencies": ["Cartographer's tools", "Thieves' tools"],
+			"languageProficiencies": [],
+			"startingEquipment": {
+				"text": "A small piece of black metal found in the mountain and carved with a mysterious rune, a bullseye lantern, a map drawn by a friend who never returned from a delve, a set of common clothes, a two-person tent, and a purse containing 15 gp",
+				"gold": 15
+			},
+			"entries": [
+				"You were born and raised in Deepdelver’s Enclave, a settlement of explorers and adventurers who delve into the endless depths of Blackclaw Mountain. The folk of Deepdelver’s Enclave are your family, and you have embraced the love of exploration common to all of them, and their goal of standing out as a light in the dark.",
+				{
+					"type": "entries",
+					"name": "Feature: Deep Survival",
+					"entries": [
+						"You are experienced at traveling and surviving the caves and tunnels of Blackclaw Mountain. While in the mountain, you can retrace your steps to any place to which you have previously traveled. Additionally, when you enter a new location in the mountain, you immediately recall a single piece of lore about that location, provided by the GM. The lore could be about hazards or monsters rumored to be in the area, edible or harmful fauna or flora, or a historical fact or legend."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Suggested Characteristics",
+					"entries": [
+						"Deepdelvers are shaped by the truths of the enclave. Most are curious team players who embrace life, but living in Deepdelver’s Enclave isn’t all fun and games. Regardless of the dangers they have faced, the deepdelvers hang on to their love of the mystery of the mountain. Nothing excites them more than an unexplored crevasse or a statue of an ancient people not seen in millennia."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grendleroot Scholar",
+			"source": "Grendleroot",
+			"page": 147,
+			"skillProficiencies": ["Arcana", "History"],
+			"languageProficiencies": [{ "any": 2 }],
+			"startingEquipment": {
+				"text": "A small bag of sand, a bottle of ink, a quill, a journal, a mysterious tome found in Blackclaw Mountain and written in a forgotten language, and a purse containing 25 gp",
+				"gold": 25
+			},
+			"entries": [
+				"The mysteries of Blackclaw Mountain call to you— sometimes literally. You know that the Grendleroot connects the mountain to other worlds and unknown beings through eldritch power. These entities leave mysterious messages in the mountain that you are determined to decipher. As a Grendleroot scholar, you have studied the strange, maddening lore surrounding the mountain, and are always searching for the answers you seek.",
 
-    {
-      "type": "section",
-      "name": "Gamemaster’s Toolkit",
-      "id": "rog-gamemasters-toolkit",
-      "entries": []
-    },
-    {
-      "type": "section",
-      "name": "Rise of the Black Star",
-      "id": "rog-black-star",
-      "entries": []
-    }
-  ]
+				{
+					"type": "entries",
+					"name": "Feature: Voices of the Grendleroot",
+					"entries": [
+						"Whenever you take a long rest in Blackclaw Mountain, roll a d20. On a 19 or 20, you receive a message from the eldritch powers connected to the Grendleroot. The message you receive might be vague or need to be deciphered. It could take the form of a vision, alien whispers, or any other medium the GM chooses. This message contains a warning or piece of information that pertains to an upcoming adventure.",
+						"Additionally, when you enter a new location in the mountain bearing signs of the Grendleroot, you immediately know a single piece of lore about the location, provided by the GM. The lore could be about hazards or monsters rumored to be in the area, edible or harmful fauna or flora, or a historical fact or legend."
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Grendleroot Mutations",
+			"source": "Grendleroot",
+			"page": 159,
+			"caption": "When creating or modifying monsters within the mountain, roll on or choose from the Grendleroot Mutations table. These traits might increase the challenge rating of the monster to which they are applied, so use them carefully in large numbers or against low-level characters.",
+			"colLabels": ["d20", "Mutation", "Effect"],
+			"colStyles": ["col-1 text-center", "col-3", "col-8"],
+			"rows": [
+				[
+					"1",
+					"Black Plates",
+					"Strange plates of black stone or metal cover parts of this creature’s body, granting a +2 bonus to its Armor Class."
+				],
+				[
+					"2",
+					"Darkfire",
+					"This creature is wreathed in unnatural violet flames. When another creature strikes this creature with a melee attack, the attacker takes {@damage 1d6} fire damage. This damage increases to {@damage 2d6} if the creature is challenge rating 3 to 5, or {@damage 4d6} if the creature is challenge rating 6 or higher."
+				],
+				[
+					"3",
+					"Savage Scream",
+					"When this creature feels pain, its broken mind screams out toward the source of that pain. As a reaction when it takes damage from a creature within 60 feet of it, the mutated creature deals {@damage 2d6} psychic damage to the creature that damaged it."
+				]
+			]
+		}
+	]
 }
